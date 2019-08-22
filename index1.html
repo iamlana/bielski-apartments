@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
     <title>Bielski Apartments</title>
 </head>
 <body>
@@ -18,27 +19,89 @@
 </ul>
 </nav>
 <header class="header">
+<img class="header__image" src="/Users/annalukianova/projects/Bielski_apartments/img/pokuj.jpg" alt="pokuj">
 <section class="header__item"><img class="header__item__logo-image" src="/Users/annalukianova/projects/Bielski_apartments/img/Lions_International_logo.png" alt="Lion logo">Bielski Apartments</section>
 <section class="header__item"><button class="header__item__button">ZAREZERWUJ TERAZ</button></section>
 </header>
 <section class="about">
-    <h3 class="about__item__heading">O NAS</h3>
+    <h3 class="heading about__heading">O NAS</h3>
     <article class="about__item">
-        <p class="about__item__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        <img src="" alt="" class="about__item__img">
+        <p class="about__item-text">Bielski Apartments & Guesthouse is a family-run business that carries the family name proudly.  Our mission is to create extra-
+                ordinary guest experiences by providing unmatched hospitality services.</p>
+        <img src="" alt="" class="about__item-img">
     </article>
     <article class="about__item">
-        <p class="about__item__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod?</p>
-        <img src="" alt="" class="about__item__img">
+        <p class="about__item-text">    Bielski Apartments offers cozy, homelike accommodation in the center of Gdansk to guests and travelers from all around the world. Nicely furnished charming property is a great fit for a group of friends, two couples, or relaxed and enjoyable family vacation.</p>
+        <img src="" alt="" class="about__item-img">
     </article>
 </section>
-<section class="">
-    <article>
-        <h3 class=""></h3>
-        <p class=""></p>
-    </article>
+<section class="services">
+    <h3 class="heading services__heading">USŁUGI</h3>
+    <div class="services__listing">
+        <figure>
+                <figcaption>całkowicie urządzona kuchnia oraz śniadanie</figcaption>
+                <img src="/Users/annalukianova/projects/Bielski_apartments/icons/coffee-cup.svg" alt="coffee-cup">
+        </figure>
+        <figure>
+                <figcaption>bliskość najpopularniejszych atrakcji miasta</figcaption>
+                <img src="/Users/annalukianova/projects/Bielski_apartments/icons/map.svg" alt="map">
+        </figure>
+        <figure>
+                <figcaption>transfer z/do lotniska za dodatkową opłatę</figcaption>
+                <img src="/Users/annalukianova/projects/Bielski_apartments/icons/parking.svg" alt="transfer">
+        </figure>
+        <figure>
+                <figcaption>możliwosc dostawki dziecięcego łóżeczka</figcaption>
+                <img src="/Users/annalukianova/projects/Bielski_apartments/icons/family.svg" alt="family">
+        </figure>
+        <figure>
+                <figcaption>kominek w kaszubskim styliu</figcaption>
+                <img src="/Users/annalukianova/projects/Bielski_apartments/icons/fireplace.svg" alt="fireplace">
+        </figure>
+        <figure>
+                <figcaption>telewizor oraz bezplłatne WiFi</figcaption>
+                <img src="/Users/annalukianova/projects/Bielski_apartments/icons/television.svg" alt="television">
+        </figure>
+    </div>
+    <img src="/Users/annalukianova/projects/Bielski_apartments/img/coffeecup.jpg" alt="coffeecup">
+    <img src="/Users/annalukianova/projects/Bielski_apartments/img/balcony.jpg" alt="balcony">
+    <img src="/Users/annalukianova/projects/Bielski_apartments/img/kaszubskakuchnia.jpg" alt="kaszubskakuchnia">
 </section>
-<section class="">
+<section class="rooms">
+    <button class="room-1">Bielski Guesthouse ul. Spichrzowa 24 </button>
+    <button onclick="room2()">Bielski Apartment ul. Katarzynki 9</button>
+    <button onclick="room3()">Bielski Lawendowa Rooms ul. Lawendowa 4 </button>
+    <button onclick="room4()">Bielski 4</button>
+    <div class="room-1 room-visible">
+        <h3 class="room-1__heading">Guesthouse combines high quality service with a casual-classic atmosphere of a guesthouse.</h3>
+        <p class="">The property is located in a secured, privately accessed second level of a classically-renovated Gdansk apartment building only a few minutes away from all major Gdansk historical sites. Bielski Guesthouse has four rooms with two shared bathrooms allocated in a nicely furnished 3 level building. All four rooms may have bed arrangements that will suit your best purpose. Spacious common area on the first floor at the kitchen is a welcoming hangout spot. The property has been renovated to an exceptionally high standard and all rooms are furnished with extra comfortable and spacious beds. There is a small library and kid’s area with plenty of toys and board games located in the common area. Iron and ironing board are located in the wardrobe at the entrance.Bielski Guesthouse would be a perfect fit for couples, families with kids, solo adventurers, and business travelers. We welcome group reservations up to 15 guests. For group inquiries, kindly Contact Us. Each room is named after a city-member of Hanseatic league and has its own character.
+        </p>
+        <div class="room-1__item">
+                <div class="room-mask">
+                    <div class="item-content">
+                        <div class="item-content-inner">
+                            <h3>Stockholm</h3>
+                            <p class="project-description">‘Stockholm’ can accommodate four people as it has one king bed and a queen size fold down sofa for two people. The room also has a TV set and a locker wardrobe.
+                            </p>
+                            <a href="#" class="room1-link">
+                                <i class="" aria-hidden="true">
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div class="room-2">custom 2
+            <div class="room-1__item">
+            <h3>Private 2-bedroom apartment (ul. Katarzynki 9)</h3>
+            <p>Apartment with a small balcony is located in the center of old town of Gdansk on Katarzynki 9 street close to all major Gdansk historical sights, right next to two charming churches: St. Catherine’s Church and St. Bridget’s Church.The apartment has two rooms, HD TV-set with a broad range of channels and unlimited WI-FI access. A well-furnished kitchen is equipped with dishwasher, washing machine, fridge, microwave oven and a gas cooker. Bathroom is equipped with a hair dryer and  hand soap. Bed linen, towels, iron and ironing board are included as well. Our guests are always welcome to enjoy coffee, tea, and light snacks provided in the kitchen. Guests are provided with complimentary bottled water.
+            </p>
+            </div>
+    </div>
+    <div class="room-3">custom 3</div>
+    <div class="room-4">custom 4</div>
+
     <article>
         <h3 class=""></h3>
         <p class=""></p>
