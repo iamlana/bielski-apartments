@@ -87,3 +87,22 @@
       .slideshow-container {
       width: 100%;
     }}
+
+     /* Clients container */
+     .client_picture {
+      margin: auto;
+      position: relative;
+      width: 100px;
+      height: 100px;
+
+    }
+    .client_picture img {
+      vertical-align: middle;
+      position: absolute;
+      border-radius: 50%;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      object-fit: cover;
+    }
