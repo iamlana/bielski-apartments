@@ -1,0 +1,36 @@
+<div class="square">
+    <div class="square-inner slider">
+        <!-- <img src="./img/properties/property-1/171086401.jpg" style="width:100%"> -->
+        <img src="./img/properties/property-1/171246438.jpg" style="width:100%">
+        <!-- <img src="./img/properties/property-1/178816451.jpg" style="width:100%"> -->
+        <!-- <img src="./img/properties/property-1/178821809.jpg" style="width:100%"> -->
+    </div>
+</div>
+<style>
+    .square {
+        position: relative;
+        width: 400px;
+    }
+
+    .square::after {
+        content: '';
+        display: block;
+        padding-bottom: 100%;
+    }
+
+    .square-inner {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+    }
+
+    .slider img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        object-fit: cover;
+    }
+</style>
