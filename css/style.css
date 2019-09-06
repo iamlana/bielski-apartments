@@ -1,108 +1,46 @@
-    * {box-sizing: border-box}
+* {
+  box-sizing: border-box
+}
 
-    body {font-family: Verdana, sans-serif; margin:0}
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0
+}
 
-    .property-1,
-    .property-2,
-    .property-3,
-    .property-4 {
-        display: none;
-    }
-    .property-visible {
-        display: block;
-    }
+.property-1,
+.property-2,
+.property-3,
+.property-4 {
+  display: none;
+}
 
-    /* Slideshow container */
-    .mySlides {display: none}
+.property-visible {
+  display: block;
+}
 
-    .slideshow-container {
-      position: relative;
-      margin: auto;
-      width: 400px;
-    }
-    .slideshow-container::after {
-      content: '';
-      display: block;
-      padding-bottom: 100%;
-    }
-   .mySlides{
-      position: absolute;
-      width: 100%;
-      height: 100%;
-    }
-    .mySlides img {
-      vertical-align: middle;
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      left: 0;
-      top: 0;
-      object-fit: cover;
-    }
+/* Clients container */
 
-    /* Next & previous buttons */
-    .prev, .next {
-      cursor: pointer;
-      position: absolute;
-      top: 50%;
-      width: auto;
-      padding: 16px;
-      margin-top: -22px;
-      color: white;
-      font-weight: bold;
-      transition: 0.6s ease;
-      border-radius: 0 3px 3px 0;
-      user-select: none;
-    }
+.client_picture {
+  margin: auto;
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
 
-    /* Position the "next button" to the right */
-    .next {
-      right: 0;
-      border-radius: 3px 0 0 3px;
-    }
+.client_picture img {
+  vertical-align: middle;
+  position: absolute;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+}
 
-    .prev:hover, .next:hover {
-      background-color: rgba(0,0,0,0.8);
-    }
-
-    /* Fading animation */
-    .fade {
-      -webkit-animation-name: fade;
-      -webkit-animation-duration: 1.5s;
-      animation-name: fade;
-      animation-duration: 1.5s;
-    }
-
-    @-webkit-keyframes fade {
-      from {opacity: .4}
-      to {opacity: 1}
-    }
-
-    @keyframes fade {
-      from {opacity: .4}
-      to {opacity: 1}
-    }
-
-    @media only screen and (max-width: 500px) {
-      .slideshow-container {
-      width: 100%;
-    }}
-
-     /* Clients container */
-     .client_picture {
-      margin: auto;
-      position: relative;
-      width: 100px;
-      height: 100px;
-
-    }
-    .client_picture img {
-      vertical-align: middle;
-      position: absolute;
-      border-radius: 50%;
-      width: 100%;
-      height: 100%;
-      left: 0;
-      top: 0;
-      object-fit: cover;
-    }
+@media only screen and (max-width: 500px) {
+  .map {
+    height: 50vh;
+    width: 100%;
+  }
+}
