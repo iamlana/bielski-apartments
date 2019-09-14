@@ -3,8 +3,153 @@
 }
 
 body {
-  font-family: Verdana, sans-serif;
-  margin: 0
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+.navigation-menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  vertical-align: center;
+  top: 0;
+  width: 100%;
+  height: 10vh;
+  z-index: 10;
+  background-color: rgb(64, 77, 73);
+  padding: 0 20px;
+  margin: 0;
+}
+
+.navigation-menu p {
+  text-transform: capitalize;
+  color: white;
+  letter-spacing: 5px;
+  font-weight: 600;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 65%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-links a:hover {
+  color: rgb(233, 220, 103);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.burger {
+  display: none;
+}
+
+.burger div {
+  margin: 5px;
+  width: 25px;
+  height: 2px;
+  background-color: white;
+  cursor: pointer;
+}
+ @media screen and (max-width: 1120px){
+   body{
+     overflow-x: hidden;
+   }
+  .nav-links{
+    position: absolute;
+    padding-left: 10px;
+    right: 0;
+    height: 90vh;
+    top: 10vh;
+    background-color: rgb(64, 77, 73);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+  .nav-links li{
+    opacity: 0;
+  }
+  .burger{
+    display: block;
+  }
+}
+
+.nav-active{
+  transform: translateX(0%)
+}
+@keyframes navLinkFade{
+  from{
+    opacity: 0;
+    transform: translateX(50px)
+  }
+  to{
+    opacity: 1;
+    transform: 0px;
+  }
+}
+/*
+.navigation-menu li,
+.navigation-menu img {
+  display: inline-block;
+  margin: 0 20px;
+  padding: 0;
+}
+
+.navigation-menu ul {
+  display: block;
+  text-align: center;
+  position: relative;
+  height: auto;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-menu a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+.navigation-menu button {
+  display: block;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+@media only screen and (max-width: 500px) {
+  .navigation-menu .navigation-menu__item {
+    display: none;
+  }
+
+  .navigation-menu {
+    padding: 0;
+  }
+}
+*/
+.header {
+  margin: 0;
+  background-image: url("../img/pokuj\ copy.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 70vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    background-size: contain;
+  }
 }
 
 .property-1,
