@@ -105,28 +105,31 @@ body {
     transform: translateX(0px);
   }
 }
+
 /* Header */
 
-.header{
+.header {
   position: relative;
   margin: 0;
   width: 100%;
   height: 70vh;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.header img{
+
+.header img {
   width: 100%;
   height: inherit;
   object-fit: cover;
 }
-.header button{
+
+.header button {
   color: rgb(64, 77, 73);
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background-color:  rgb(233, 220, 103);
+  background-color: rgba(233, 220, 103, 0.591);
   height: auto;
   width: auto;
   border: none;
@@ -138,18 +141,123 @@ body {
   text-decoration: none;
   display: inline-block;
   font-family: 'Montserrat', sans-serif;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
-.header button:hover{
+
+.header button:hover {
   color: rgb(233, 220, 103);
-  background-color: rgb(64, 77, 73);
+  background-color: rgba(64, 77, 73, 0.515);
   transition: 0.5s ease;
 }
+
 @media only screen and (max-width: 600px) {
   .header {
     background-size: contain;
   }
+}
+
+/* O nas */
+.about p {
+  margin: 35px;
+  text-align: justify;
+}
+
+h3 {
+  text-align: center;
+}
+
+.services {
+  background-color: rgb(64, 77, 73);
+  color: white;
+  display: grid;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  grid-auto-columns: 16.6%;
+  grid-template-areas:
+    "heading heading heading heading heading heading"
+    "name1   name2   name3   name4   name5   name6"
+    "icon1   icon2   icon3   icon4   icon5   icon6"
+    "img1 . img2 img2 . img3";
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.services img{
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+.services p{
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+.services i{
+  padding: 10px;
+  text-align: center;
+}
+.services__heading {
+  grid-area: heading;
+}
+.service__name1{
+  grid-area: name1;
+}
+.service__name2{
+  grid-area: name2;
+}
+.service__name3{
+  grid-area: name3;
+}
+.service__name4{
+  grid-area: name4;
+}
+.service__name5{
+  grid-area: name5;
+}
+.service__name6{
+  grid-area: name6;
+}
+.icon1 {
+  grid-area: icon1;
+}
+.icon2 {
+  grid-area: icon2;
+}
+.icon3 {
+  grid-area: icon3;
+}
+.icon4 {
+  grid-area: icon4;
+}
+.icon5 {
+  grid-area: icon5;
+}
+.icon6 {
+  grid-area: icon6;
+}
+.service__img1 {
+  grid-area: img1;
+  justify-items: center;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 4;
+  padding: 20px;
+}
+.service__img2 {
+  grid-area: img2;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 4;
+}
+.service__img3 {
+  grid-area: img3;
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 4;
+  grid-row-end: 4;
+  padding: 20px;
 }
 
 .property-1,
