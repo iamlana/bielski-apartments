@@ -174,92 +174,149 @@ h3 {
   padding: 0;
   margin: 0;
   justify-content: center;
-  grid-auto-columns: 16.6%;
-  grid-template-areas:
-    "heading heading heading heading heading heading"
-    "name1   name2   name3   name4   name5   name6"
-    "icon1   icon2   icon3   icon4   icon5   icon6"
-    "img1 . img2 img2 . img3";
+  grid-template-columns: repeat(6, 1fr);
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.services img{
+
+.services img {
   height: 300px;
   width: 300px;
   object-fit: cover;
-}
-.services p{
   margin: 0;
   padding: 20px;
+  margin-bottom: 20px;
+  grid-column: span 2;
+  align-self: center;
+  justify-self: center;
+}
+
+.services p {
+  word-wrap: break-word;
   text-align: center;
-}
-.services i{
-  padding: 10px;
-  text-align: center;
-}
-.services__heading {
-  grid-area: heading;
-}
-.service__name1{
-  grid-area: name1;
-}
-.service__name2{
-  grid-area: name2;
-}
-.service__name3{
-  grid-area: name3;
-}
-.service__name4{
-  grid-area: name4;
-}
-.service__name5{
-  grid-area: name5;
-}
-.service__name6{
-  grid-area: name6;
-}
-.icon1 {
-  grid-area: icon1;
-}
-.icon2 {
-  grid-area: icon2;
-}
-.icon3 {
-  grid-area: icon3;
-}
-.icon4 {
-  grid-area: icon4;
-}
-.icon5 {
-  grid-area: icon5;
-}
-.icon6 {
-  grid-area: icon6;
-}
-.service__img1 {
-  grid-area: img1;
-  justify-items: center;
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 4;
-  grid-row-end: 4;
-  padding: 20px;
-}
-.service__img2 {
-  grid-area: img2;
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 4;
-  grid-row-end: 4;
-}
-.service__img3 {
-  grid-area: img3;
-  grid-column-start: 5;
-  grid-column-end: 6;
-  grid-row-start: 4;
-  grid-row-end: 4;
   padding: 20px;
 }
 
+.services i {
+  text-align: center;
+}
+
+.services__heading {
+  grid-column: span 6;
+}
+
+@media screen and (max-width: 1250px) {
+  .services {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .services__heading {
+    grid-column: span 3;
+  }
+
+  .service__img2,
+  .service__img3 {
+    display: none;
+  }
+
+  .services img {
+    grid-column: span 3;
+    padding: 0;
+  }
+
+  .services i {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .services {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .services__heading {
+    grid-column: span 2;
+  }
+.services p{
+  padding: 20px 0;
+}
+  .service__img2,
+  .service__img3 {
+    display: none;
+  }
+
+  .services img {
+    grid-column: span 2;
+    margin: 35px 0 35px 0;
+    padding: 0;
+  }
+
+  .services i {
+    display: none;
+  }
+}
+
+.rooms {
+  margin: 35px;
+  text-align: justify;
+  display: grid;
+  grid-template-columns: repeat(4, 1ft);
+}
+
+.rooms-header {
+  grid-column: span 4;
+}
+
+.rooms .property-1,
+.rooms .property-2,
+.rooms .property-3,
+.rooms .property-4 {
+  grid-column: span 4;
+}
+
+.rooms .rooms-selection {
+  background-color: rgb(233, 220, 103);
+  color: rgb(64, 77, 73);
+  width: 250px;
+  height: auto;
+  justify-self: center;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 16px 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+@media screen and (max-width: 1120px) {
+  .rooms .rooms-selection {
+    grid-column: span 2;
+    justify-self: center;
+    margin-top: 20px;
+    font-size: 16px;
+    width: 250px;
+    padding: 10px 20px;
+  }
+  .rooms .property-1,
+  .rooms .property-2,
+  .rooms .property-3,
+  .rooms .property-4 {
+    grid-column: span 4;
+  }
+}
+@media screen and (max-width: 600px){
+  .rooms .rooms-selection {
+    grid-column: span 4;
+    justify-self: center;
+    margin-top: 20px;
+    font-size: 14px;
+    width: 260px;
+    padding: 10px 10px;
+  }
+}
 .property-1,
 .property-2,
 .property-3,
@@ -270,7 +327,9 @@ h3 {
 .property-visible {
   display: block;
 }
-
+.room-header{
+  margin-top: 45px;
+}
 /* Clients container */
 
 .client_picture {
@@ -279,8 +338,18 @@ h3 {
   width: 100px;
   height: 100px;
 }
-
+.client {
+  background-color: rgb(64, 77, 73);
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 1ft);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.client-header{
+  grid-column: span 3;
+}
 .client_picture img {
+  grid-column: span;
   vertical-align: middle;
   position: absolute;
   border-radius: 50%;
