@@ -320,33 +320,31 @@
       <img src="../Bielski_apartments/img/clients/boy-casual-eyes-1222271.jpg" alt="">
     </div>
   </section>
-  <footer id="contact">
-    <h3>KONTAKT</h3>
+  <footer class="contact">
+    <h3 class="contact-header">KONTAKT</h3>
     <section class="contact_call">
       <h3>ZADZWON DO NAS</h3>
-      <p> +48506324802 <br>
-        +48572203764<br>
+      <p> +48 506 324 802 <br>
+        +48 572 203 764<br>
         (also available on Telegram, whatsapp, viber)</p>
       <div class="contact-social">
-        <a href=""><i class="fab fa-facebook-square"></i></a>
-        <a href=""><i class="fab fa-google-plus"></i></a>
-        <a href=""><i class="fab fa-twitter"></i></a>
-        <a href=""><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/BielskiApartments/"><i class="fab fa-facebook-square"></i></a>
+        <a href="https://www.instagram.com/bielskiapartments/?hl=pl"><i class="fab fa-instagram"></i></a>
+        <a href="https://pl.tripadvisor.com/Profile/bielskiapartments"><i class="fab fa-tripadvisor"></i></a>
       </div>
     </section>
-    <section class="contact_mail">
+    <section class="contact-mail">
       <h3>NAPISZ DO NAS</h3>
       <div class="form">
-        <form action="">
-          <input type="text" name="name" id="name" required="" placeholder="Imję i nazwisko"><br><br>
-          <input type="email" name="email" id="email" required="" placeholder="E-mail"><br><br>
-          <textarea name="message" id="message" placeholder="Twoja wiadomość.." required=""></textarea>
-          <input type="submit" id="submit" value="Wyślij">
-          <br><br>
+        <form action="https://formspree.io/mbnbjzkm" method="POST">
+          <input type="text" name="name" id="name"  placeholder="Imję i nazwisko" required><br>
+          <input type="email" name="_replyto" id="email" placeholder="E-mail" required><br>
+          <textarea name="message" id="message" placeholder="Twoja wiadomość..." required></textarea><br>
+          <input class="button" type="submit" value="Send" id="submit">
         </form>
       </div>
     </section>
-    <section class="contact_direction">
+    <section class="contact-direction">
       <h3>JAK DOJECHAĆ</h3>
       <p>Bielski Guesthouse ul. Spichrzowa 24 <br>
         Bielski Apartment Katarzynki ul. Katarzynki 9 <br>
@@ -354,10 +352,10 @@
         Bielski Apartments Ogarna ul. Ogarna 73/75
       </p>
     </section>
-    <section class="map">
+  </footer>
+  <section class="map">
       <iframe src="https://www.google.com/maps/d/embed?mid=1XPyXjIH16-5eQ65PMIJRCB-b5rzf5I3a" width="100%"
         height="280"></iframe> </section>
-  </footer>
   <script src="js/main.js"></script>
 </body>
 

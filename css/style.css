@@ -122,6 +122,23 @@ body {
   object-fit: cover;
 }
 
+#submit {
+  background-color: rgba(233, 220, 103, 0.591);
+  color: rgb(64, 77, 73);
+  height: auto;
+  width: auto;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 16px 30px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .header button {
   color: rgb(64, 77, 73);
   position: absolute;
@@ -377,9 +394,6 @@ h3 {
   object-fit: cover;
 }
 
-/* .client cite {
-  display: none;
-} */
 
 @media screen and (max-width: 1200px) {
   .client {
@@ -409,6 +423,7 @@ blockquote {
   color: #000;
   font-style: italic;
 }
+
 blockquote::before {
   border: 14px solid transparent;
   border-top: 14px solid #efefef;
@@ -424,6 +439,7 @@ blockquote::before {
   transform-origin: center;
   transform: rotate(90deg) skew(-25deg) translateY(17px);
 }
+
 blockquote cite {
   position: absolute;
   bottom: -24px;
@@ -433,7 +449,62 @@ blockquote cite {
   font-weight: 300;
   color: white;
 }
-@media only screen and (max-width: 500px) {
+
+/*footer*/
+.contact {
+  display: grid;
+  grid-template-columns: repeat(3, 1ft);
+  text-align: center;
+}
+
+.contact-header {
+  grid-column: span 3;
+}
+
+.contact section {
+  line-height: 50px;
+}
+
+.contact-social i {
+  font-size: 45px;
+  padding: 20px;
+  color: black;
+}
+
+.contact-mail input,
+form textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+}
+.form input, .form textarea{
+  padding: 10px;
+  margin: 5px;
+  border: 1px black solid;
+}
+@media screen and (max-width: 1000px) {
+  .contact {
+    grid-template-columns: repeat(1, 1ft);
+    line-height: none;
+  }
+   .contact-header{
+    grid-column: span 1;
+  }
+  .contact-mail{
+    width: 50%;
+    justify-self: center;
+  }
+  .contact-social i {
+    font-size: 25px;
+    padding: 5px;
+  }
+  .contact section {
+    line-height: 20px;
+  }
+  form .button{
+    height: 20px;
+  }
+}
+@media screen and (max-width: 500px) {
   .map {
     height: 50vh;
     width: 100%;
