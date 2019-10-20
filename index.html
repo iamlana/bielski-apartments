@@ -7,284 +7,416 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="https://kit.fontawesome.com/6fce4c6e74.js"></script>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/navigation.css">
+  <link rel="stylesheet" href="css/services.css">
   <link rel="stylesheet" href="css/slideshow.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
+  <link
+  href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap"
+  rel="stylesheet">
   <title>Bielski Apartments</title>
 </head>
 
 <body>
-  <nav class="navigation-menu" id="menu" onclick="toggleMenu()">
-    <div class="navigation-menu__logo">
-      <p>Bielski Apartments</p>
-    </div>
-    <ul class="nav-links">
-      <li class="navigation-menu__item"><a href="#about">O nas</a></li>
-      <li class="navigation-menu__item"><a href="#services">Usługi</a></li>
-      <li class="navigation-menu__item"><a href="#rooms">Pokoje i ceny</a></li>
-      <li class="navigation-menu__item"><a href="#opinions">Opinie klijentów</a></li>
-      <li class="navigation-menu__item"><a href="#contact">Kontakt</a></li>
-      <li class="navigation-menu__item"><a href="#" style="font-weight: bold">TELEFON KONTAKTOWY<br />+48 000 000
-          000</a></li>
-    </ul>
-    <div class="burger">
-      <div class="line1"></div>
-      <div class="line2"></div>
-      <div class="line3"></div>
+  <nav class="navigation" onclick="toggleMenu()">
+    <div class="navigation__container">
+      <div class="navigation__brand">
+        Bielski Apartments
+      </div>
+      <ul class="navigation__items">
+        <li class="navigation__item">
+          <a href="#about">O nas</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#services">Usługi</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#rooms">Pokoje i ceny</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#opinions">Opinie klijentów</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#contact">Kontakt</a>
+        </li>
+        <li class="navigation__item">
+          <a href="tel:+48123123123">
+            <i class="fa fa-phone-alt"></i> +48 572 203 764
+          </a>
+        </li>
+      </ul>
+      <button class="navigation__burger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </button>
     </div>
   </nav>
+
   <header class="header">
-    <img src="../Bielski_apartments/img/pokój copy.jpg" alt="">
-    <section class="header__item"><button class="header__item__button">zarezerwuj teraz</button></section>
+    <img src="./img/hero-background.jpg" alt="">
+    <section class="header__item">
+      <button class="header-button">zarezerwuj teraz</button>
+    </section>
   </header>
+
   <section class="about" id="about">
-    <h3 class="heading about__heading">O NAS</h3>
+    <h3 class="heading about__heading">
+      O NAS
+    </h3>
     <article class="about__item">
-      <p class="about__item-text">Bielski Apartments & Guesthouse is a family-run business that carries the family name
-        proudly. Our mission is to create extra-
-        ordinary guest experiences by providing unmatched hospitality services.</p>
-      <img src="" alt="" class="about__item-img">
+      <p class="about__item-text">
+        Bielski Apartments & Guesthouse is a family-run business that carries
+        the family name proudly. Our mission is to create extraordinary guest
+        experiences by providing unmatched hospitality services.
+      </p>
+      <img class="about__img" src="img/properties/property-1/179413267.jpg" alt="Gdansk">
+
     </article>
     <article class="about__item">
-      <p class="about__item-text"> Bielski Apartments offers cozy, homelike accommodation in the center of Gdansk to
-        guests and travelers from all around the world. Nicely furnished charming property is a great fit for a group of
-        friends, two couples, or relaxed and enjoyable family vacation.</p>
-      <img src="" alt="" class="about__item-img">
+      <p class="about__item-text">
+        Bielski Apartments offers cozy, homelike accommodation in the center of
+        Gdansk to guests and travelers from all around the world. Nicely
+        furnished charming property is a great fit for a group of friends, two
+        couples, or relaxed and enjoyable family vacation.
+      </p>
+      <!-- TODO: Add image here -->
+      <span><img class="about__img" src="img/properties/property-1/178929294.jpg" alt="Gdansk"></span>
+
     </article>
   </section>
-  <section class="services">
-    <h3 class="heading services__heading" id="services">USŁUGI</h3>
-    <p>całkowicie urządzona kuchnia oraz śniadanie</p>
-    <p>bliskość najpopularniejszych atrakcji miasta</p>
-    <p>transfer z/do lotniska za dodatkową opłatę</p>
-    <p>możliwosc dostawki dziecięcego łóżeczka</p>
-    <p>kominek w kaszubskim styliu</p>
-    <p>telewizor oraz bezplłatne WiFi</p>
-    <i class="fas fa-coffee"></i>
-    <i class="fas fa-map"></i>
-    <i class="fas fa-parking"></i>
-    <i class="fas fa-bed"></i>
-    <i class="fas fa-tv"></i>
-    <i class="fas fa-fire"></i>
-    <img class="service__img1" src="/Users/annalukianova/projects/Bielski_apartments/img/coffeecup.jpg" alt="coffeecup">
-    <img class="service__img2" src="/Users/annalukianova/projects/Bielski_apartments/img/balcony.jpg" alt="balcony">
-    <img class="service__img3" src="/Users/annalukianova/projects/Bielski_apartments/img/kaszubskakuchnia.jpg"
-      alt="kaszubskakuchnia">
+
+  <section class="services" id="services">
+    <div class="services__container">
+      <h3 class="services__heading">USŁUGI</h3>
+
+      <ul class="services__list">
+        <li class="services__list-item">
+          <span>całkowicie urządzona kuchnia oraz śniadanie</span>
+          <i class="fas fa-coffee"></i>
+        </li>
+        <li class="services__list-item">
+          <span>bliskość najpopularniejszych atrakcji miasta</span>
+          <i class="fas fa-map"></i>
+        </li>
+        <li class="services__list-item">
+          <span>transfer z/do lotniska za dodatkową opłatę</span>
+          <i class="fas fa-parking"></i>
+        </li>
+        <li class="services__list-item">
+          <span>możliwosc dostawki dziecięcego łóżeczka</span>
+          <i class="fas fa-bed"></i>
+        </li>
+        <li class="services__list-item">
+          <span>kominek w kaszubskim styliu</span>
+          <i class="fas fa-fire"></i>
+        </li>
+        <li class="services__list-item">
+          <span>telewizor oraz bezplłatne WiFi</span>
+          <i class="fas fa-tv"></i>
+        </li>
+      </ul>
+
+      <ul class="services__images">
+        <li><img
+          class="services__image"
+          src="./img/Kubek_kawy.jpg"
+          alt="Kubek kawy"
+        /></li>
+        <li><img
+          class="services__image"
+          src="./img/Balkon.jpg"
+          alt="Balkon"
+        /></li>
+        <li><img
+          class="services__image"
+          src="./img/Kaszubska_kuchnia.jpg"
+          alt="Kaszubska kuchnia"
+        /></li>
+      </ul>
+    </div>
   </section>
-  <section class="rooms" id="rooms">
-    <h3 class="rooms-header">POKOJE I CENY</h3>
-    <button class="rooms-selection" onclick="show(1)">Bielski Guesthouse ul. Spichrzowa 24 </button>
-    <button class="rooms-selection" onclick="show(2)">Bielski Apartment ul. Katarzynki 9</button>
-    <button class="rooms-selection" onclick="show(3)">Bielski Lawendowa Rooms ul. Lawendowa 4 </button>
-    <button class="rooms-selection" onclick="show(4)">Bielski Apartments Ogarna</button>
-    <div class="property-1 property-visible">
-      <h3 class="room-header">Guesthouse combines high quality service with a casual-classic atmosphere of a guesthouse.
+
+  <section
+  class="rooms"
+  id="rooms">
+
+  <h3 class="rooms-header">
+    POKOJE I CENY
+  </h3>
+
+  <button
+    class="rooms-selection"
+    onclick="show(1)">
+      Bielski Guesthouse ul. Spichrzowa 24
+  </button>
+
+  <button
+    class="rooms-selection"
+    onclick="show(2)">
+      Bielski Apartment ul. Katarzynki 9
+  </button>
+
+  <button
+    class="rooms-selection"
+    onclick="show(3)">
+      Bielski Lawendowa Rooms ul. Lawendowa 4
+  </button>
+
+  <button
+    class="rooms-selection"
+    onclick="show(4)">
+      Bielski Apartments Ogarna
+  </button>
+
+    <div
+    class="property-1 property-visible">
+      <h3 class="room-header">
+        Guesthouse combines high quality service with
+        a casual-classic atmosphere of a guesthouse.
       </h3>
-      <p>The property is located in a secured, privately accessed second level of a classically-renovated
-        Gdansk apartment building only a few minutes away from all major Gdansk historical sites. Bielski Guesthouse
-        has
-        four rooms with two shared bathrooms allocated in a nicely furnished 3 level building. All four rooms may have
-        bed arrangements that will suit your best purpose. Spacious common area on the first floor at the kitchen is a
-        welcoming hangout spot. The property has been renovated to an exceptionally high standard and all rooms are
-        furnished with extra comfortable and spacious beds. There is a small library and kid’s area with plenty of
-        toys
-        and board games located in the common area. Iron and ironing board are located in the wardrobe at the
-        entrance.Bielski Guesthouse would be a perfect fit for couples, families with kids, solo adventurers, and
-        business travelers. We welcome group reservations up to 15 guests. For group inquiries, kindly Contact Us.
-        Each
-        room is named after a city-member of Hanseatic league and has its own character.
+      <p class="property-description">
+        The property is located in a secured, privately accessed second
+        level of a classically-renovated Gdansk apartment building only
+        a few minutes away from all major Gdansk historical sites. Bielski
+        Guesthouse has four rooms with two shared bathrooms allocated in a
+        nicely furnished 3 level building. All four rooms may have bed
+        arrangements that will suit your best purpose. Spacious common area
+        on the first floor at the kitchen is a welcoming hangout spot.
+        The property has been renovated to an exceptionally high standard
+        and all rooms are furnished with extra comfortable and spacious beds.
+        There is a small library and kid’s area with plenty of toys and board
+        games located in the common area. Iron and ironing board are located
+        in the wardrobe at the entrance.Bielski Guesthouse would be a perfect
+        fit for couples, families with kids, solo adventurers, and business
+        travelers. We welcome group reservations up to 15 guests. For group
+        inquiries, kindly Contact Us. Each room is named after a city-member
+        of Hanseatic league and has its own character.
       </p>
       <div class="slideshow">
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-1/171086401.jpg" style="width:100%">
+          <img src="./img/properties/property-1/171086401.jpg">
         </div>
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-1/171246438.jpg" style="width:100%">
+          <img
+          src="./img/properties/property-1/171246438.jpg">
         </div>
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-1/178816451.jpg" style="width:100%">
+          <img
+          src="./img/properties/property-1/178816451.jpg">
         </div>
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-1/178821809.jpg" style="width:100%">
+          <img
+          src="./img/properties/property-1/178821809.jpg">
         </div>
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-1/178927675.jpg" style="width:100%">
+          <img
+          src="./img/properties/property-1/178927675.jpg">
         </div>
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-1/178928480.jpg" style="width:100%">
+          <img
+          src="./img/properties/property-1/178928480.jpg">
         </div>
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-1/178929294.jpg" style="width:100%">
+          <img
+          src="./img/properties/property-1/178929294.jpg">
         </div>
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-1/178933233.jpg" style="width:100%">
+          <img
+          src="./img/properties/property-1/178933233.jpg">
         </div>
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-1/179413267.jpg" style="width:100%">
+          <img
+          src="./img/properties/property-1/179413267.jpg">
         </div>
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-1/186557390.jpg" style="width:100%">
+          <img
+          src="./img/properties/property-1/186557390.jpg">
         </div>
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-1/186557400.jpg" style="width:100%">
+          <img
+          src="./img/properties/property-1/186557400.jpg"
+          >
         </div>
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-1/214166009.jpg" style="width:100%">
+          <img
+          src="./img/properties/property-1/214166009.jpg"
+          >
         </div>
         <button class="slideshow__prev">&#10094;</button>
         <button class="slideshow__next">&#10095;</button>
       </div>
     </div>
     <div class="property-2">
-      <h3 class="room-header">Private 2-bedroom apartment (ul. Katarzynki 9)</h3>
-      <p>Apartment with a small balcony is located in the center of old town of Gdansk on Katarzynki 9 street close to
-        all major Gdansk historical sights, right next to two charming churches: St. Catherine’s Church and St.
-        Bridget’s Church.The apartment has two rooms, HD TV-set with a broad range of channels and unlimited WI-FI
-        access. A well-furnished kitchen is equipped with dishwasher, washing machine, fridge, microwave oven and a
-        gas
-        cooker. Bathroom is equipped with a hair dryer and hand soap. Bed linen, towels, iron and ironing board are
-        included as well. Our guests are always welcome to enjoy coffee, tea, and light snacks provided in the
-        kitchen.
-        Guests are provided with complimentary bottled water.
+      <h3 class="room-header">
+        Private 2-bedroom apartment (ul. Katarzynki 9)
+      </h3>
+      <p>
+        Apartment with a small balcony is located in the center of old town of
+         Gdansk on Katarzynki 9 street close to all major Gdansk historical
+         sights, right next to two charming churches: St. Catherine’s Church
+         and St. Bridget’s Church.The apartment has two rooms, HD TV-set with
+         a broad range of channels and unlimited WI-FI access. A well-furnished
+         kitchen is equipped with dishwasher, washing machine, fridge,microwave
+         oven and a gas cooker. Bathroom is equipped with a hair dryer and hand
+         soap. Bed linen, towels, iron and ironing board are included as well.
+         Our guests are always welcome to enjoy coffee, tea, and light snacks
+         provided in the kitchen.Guests are provided with complimentary
+         bottled water.
       </p>
       <div class="slideshow">
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-2/143584660.jpg" style="width:100%">
+          <img
+          src="./img/properties/property-2/143584660.jpg">
         </div>
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-2/143906340.jpg" style="width:100%">
+          <img src="./img/properties/property-2/143906340.jpg" >
         </div>
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-2/179410871.jpg" style="width:100%">
+          <img src="./img/properties/property-2/179410871.jpg" >
         </div>
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-2/179411266.jpg" style="width:100%">
+          <img src="./img/properties/property-2/179411266.jpg" >
         </div>
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-2/179411563.jpg" style="width:100%">
+          <img src="./img/properties/property-2/179411563.jpg" >
         </div>
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-2/179412256.jpg" style="width:100%">
+          <img src="./img/properties/property-2/179412256.jpg" >
         </div>
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-2/179414231.jpg" style="width:100%">
+          <img src="./img/properties/property-2/179414231.jpg" >
         </div>
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-2/191576290.jpg" style="width:100%">
+          <img src="./img/properties/property-2/191576290.jpg" >
         </div>
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-2/191576330.jpg" style="width:100%">
+          <img src="./img/properties/property-2/191576330.jpg" >
         </div>
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-2/215368049.jpg" style="width:100%">
+          <img src="./img/properties/property-2/215368049.jpg" >
         </div>
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-2/179412208.jpg" style="width:100%">
+          <img src="./img/properties/property-2/179412208.jpg" >
         </div>
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-2/179412756.jpg" style="width:100%">
+          <img src="./img/properties/property-2/179412756.jpg" >
         </div>
         <button class="slideshow__prev">&#10094;</button>
         <button class="slideshow__next">&#10095;</button>
       </div>
     </div>
+
     <div class="property-3">
-      <h3 class="room-header">Bielski Lawendowa Rooms ul. Lawendowa 4</h3>
-      <p>Obiekt Bielski Lawendowa Rooms jest usytuowany na Starym Mieście w Gdańsku, 300 metrów od bazyliki
-        św.
-        Mikołaja, 400 metrów od Żurawia nad Motławą i 500 metrów od fontanny Neptuna. Odległość od Ratusza Głównego
-        Miasta wynosi 2,5 km a od Bramy Zielonej i Długiego Pobrzeża – 2,6 km. Obiekt zapewnia całodobową recepcję,
-        transfer lotniskowy, wspólną kuchnię oraz bezpłatne WiFi. Wszystkie pokoje są wyposażone w czajnik i kuchenkę
-        mikrofalową.Codziennie rano w obiekcie podawane jest śniadanie kontynentalne.Odległość od Długiego Targu
-        wynosi
-        2,6 km, a od Narodowego Muzeum Morskiego – 3,3 km. Najbliższe lotnisko – port lotniczy Gdańsk im. Lecha Wałęsy
-        –
-        zlokalizowane jest w odległości 18 km. Z autentycznych opinii naszych Gości wynika, że to ich ulubiona część
-        miasta Gdańsk.</p>
+      <h3 class="room-header">
+        Bielski Lawendowa Rooms ul. Lawendowa 4
+      </h3>
+      <p>
+        Obiekt Bielski Lawendowa Rooms jest usytuowany na Starym Mieście w
+        Gdańsku, 300 metrów od bazyliki św. Mikołaja, 400 metrów od Żurawia
+        nad Motławą i 500 metrów od fontanny Neptuna. Odległość od Ratusza
+        Głównego Miasta wynosi 2,5 km a od Bramy Zielonej i Długiego Pobrzeża
+        – 2,6 km. Obiekt zapewnia całodobową recepcję, transfer lotniskowy,
+        wspólną kuchnię oraz bezpłatne WiFi. Wszystkie pokoje są wyposażone w
+        czajnik i kuchenkę mikrofalową.Codziennie rano w obiekcie podawane jest
+        śniadanie kontynentalne.Odległość od Długiego Targu wynosi 2,6 km, a
+        od Narodowego Muzeum Morskiego – 3,3 km. Najbliższe lotnisko – port
+        lotniczy Gdańsk im. Lecha Wałęsy – zlokalizowane jest w odległości 18
+        km. Z autentycznych opinii naszych Gości wynika, że to ich ulubiona
+        część miasta Gdańsk.</p>
+
       <div class="slideshow">
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-3/193903070.jpg" style="width:100%">
+          <img src="./img/properties/property-3/193903070.jpg" >
         </div>
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-3/193905212.jpg" style="width:100%">
+          <img src="./img/properties/property-3/193905212.jpg" >
         </div>
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-3/193905252.jpg" style="width:100%">
+          <img src="./img/properties/property-3/193905252.jpg" >
         </div>
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-3/193905277.jpg" style="width:100%">
+          <img src="./img/properties/property-3/193905277.jpg" >
         </div>
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-3/193905282.jpg" style="width:100%">
+          <img src="./img/properties/property-3/193905282.jpg" >
         </div>
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-3/193905291.jpg" style="width:100%">
+          <img src="./img/properties/property-3/193905291.jpg" >
         </div>
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-3/193905300.jpg" style="width:100%">
+          <img src="./img/properties/property-3/193905300.jpg" >
         </div>
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-3/215226844.jpg" style="width:100%">
+          <img src="./img/properties/property-3/215226844.jpg" >
         </div>
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-3/215364577.jpg" style="width:100%">
+          <img src="./img/properties/property-3/215364577.jpg" >
         </div>
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-3/215364581.jpg" style="width:100%">
+          <img src="./img/properties/property-3/215364581.jpg" >
         </div>
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-3/215364933.jpg" style="width:100%">
+          <img src="./img/properties/property-3/215364933.jpg" >
         </div>
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-3/215364970.jpg" style="width:100%">
+          <img src="./img/properties/property-3/215364970.jpg" >
         </div>
         <button class="slideshow__prev">&#10094;</button>
         <button class="slideshow__next">&#10095;</button>
       </div>
     </div>
+
     <div class="property-4">
-      <h3 class="room-header">Bielski Apartments Ogarna</h3>
-      <p>The property is around 1.5 km from St. Nicholas Roman Catholic Church, 1.9 km from Crane over the
-        Motława River and 180 metres from Green Gate. The accommodation provides a 24-hour front desk and free WiFi is
-        availa Guest rooms in Bielski Apartments Ogarna are equipped with a seating area, a flat-screen TV with
-        satellite channels, a kitchen, a dining area and a private bathroom with a hairdryer, a bath and a shower. All
-        units will provide guests with a wardrobe and a kettle. Guests at the guest house will be able to enjoy
-        activities in and around Gdańsk, like hiking. Popular points of interest near Bielski Apartments Ogarna
-        include
-        Long Market, Neptune Fountain and Main Town Hall. The nearest airport is Gdańsk Lech Wałęsa, 18 km from the
-        accommodation, and the property offers a paid airport shuttle service.</p>
+      <h3 class="room-header">
+        Bielski Apartments Ogarna
+      </h3>
+      <p>
+        The property is around 1.5 km from St. Nicholas Roman Catholic Church,
+        1.9 km from Crane over the Motława River and 180 metres from Green Gate.
+         The accommodation provides a 24-hour front desk and free WiFi is availa
+        Guest rooms in Bielski Apartments Ogarna are equipped with a seating
+        area, a flat-screen TV with satellite channels, a kitchen, a dining
+        area and a private bathroom with a hairdryer, a bath and a shower. All
+        units will provide guests with a wardrobe and a kettle. Guests at the
+        guest house will be able to enjoy activities in and around Gdańsk, like
+        hiking. Popular points of interest near Bielski Apartments Ogarna
+        include Long Market, Neptune Fountain and Main Town Hall. The nearest
+        airport is Gdańsk Lech Wałęsa, 18 km from the accommodation, and the
+        property offers a paid airport shuttle service.
+      </p>
       <div class="slideshow">
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-4/210588154.jpg" style="width:100%">
+          <img src="./img/properties/property-4/210588154.jpg" >
         </div>
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-4/210588167.jpg" style="width:100%">
+          <img src="./img/properties/property-4/210588167.jpg" >
         </div>
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-4/210588173.jpg" style="width:100%">
+          <img src="./img/properties/property-4/210588173.jpg" >
         </div>
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-4/210588178.jpg" style="width:100%">
+          <img src="./img/properties/property-4/210588178.jpg" >
         </div>
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-4/210588182.jpg" style="width:100%">
+          <img src="./img/properties/property-4/210588182.jpg" >
         </div>
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-4/210588188.jpg" style="width:100%">
+          <img src="./img/properties/property-4/210588188.jpg" >
         </div>
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-4/210588191.jpg" style="width:100%">
+          <img src="./img/properties/property-4/210588191.jpg" >
         </div>
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-4/210588198.jpg" style="width:100%">
+          <img src="./img/properties/property-4/210588198.jpg" >
         </div>
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-4/210588200.jpg" style="width:100%">
+          <img src="./img/properties/property-4/210588200.jpg" >
         </div>
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-4/211008962.jpg" style="width:100%">
+          <img src="./img/properties/property-4/211008962.jpg" >
         </div>
         <div class="slideshow__slide">
-          <img src="../Bielski_apartments/img/properties/property-4/211008974.jpg" style="width:100%">
+          <img src="./img/properties/property-4/211008974.jpg" >
         </div>
         <button class="slideshow__prev">&#10094;</button>
         <button class="slideshow__next">&#10095;</button>
@@ -292,55 +424,105 @@
     </div>
   </section>
   <section class="client" id="opinions">
-    <h3 class="client-header">OPINIE KLIJENTÓW</h3>
+    <h3 class="client-header">
+      OPINIE KLIJENTÓW
+    </h3>
     <blockquote>
-      <p class="client_opinion">Thank you for warm welcome, we really enjoyed staying at your place. It was very clean,
-        nicely decorated, confortable with all things you would need and most important in very good location. Thank you
-        for hosting us!</p>
-      <cite> Samanta, NY</cite>
+      <p class="client_opinion">
+        Thank you for warm welcome, we really enjoyed staying at your place. It
+        was very clean, nicely decorated, confortable with all things you would
+        need and most important in very good location. Thank you for hosting us!
+      </p>
+      <cite>
+        Samanta, NY
+      </cite>
     </blockquote>
     <blockquote>
-      <p class="client_opinion">Pan Sergej to miły i konkretny właściciel. Mieszkanie bardzo czyściutkie i ładne.
-        Dodatkowo w idealnej lokalizacji , na pewno jeszcze tam wrócimy :)</p>
-      <cite> Agnieszka, Warszawa</cite>
+      <p class="client_opinion">
+        Pan Sergej to miły i konkretny właściciel. Mieszkanie bardzo czyściutkie
+         i ładne. Dodatkowo w idealnej lokalizacji , na pewno jeszcze tam
+         wrócimy :)
+      </p>
+      <cite>
+        Agnieszka, Warszawa
+      </cite>
     </blockquote>
+
     <blockquote>
-      <p class="client_opinion"> Wonderful place to stay. Good location, clean and very cozy apartment. Save and clean
-        place for traveling with the children. They even have some toys. Also we were pleased to found some strawberries
-        to eat on the table.</p>
-      <cite>Jean, Marseille</cite>
+      <p class="client_opinion">
+        Wonderful place to stay. Good location, clean and very cozy apartment.
+        Save and clean place for traveling with the children. They even have
+        some toys. Also we were pleased to found some strawberries to eat on the
+         table.</p>
+      <cite>
+        Jean, Marseille
+      </cite>
     </blockquote>
     <div class="client_picture">
-      <img src="../Bielski_apartments/img/clients/attractive-beautiful-casual-1082962.jpg" alt="">
+      <img src="./img/clients/attractive-beautiful-casual-1082962.jpg">
     </div>
     <div class="client_picture">
-      <img src="../Bielski_apartments/img/clients/beautiful-brunette-cute-774909.jpg" alt="">
+      <img src="./img/clients/beautiful-brunette-cute-774909.jpg">
     </div>
     <div class="client_picture">
-      <img src="../Bielski_apartments/img/clients/boy-casual-eyes-1222271.jpg" alt="">
+      <img src="./img/clients/boy-casual-eyes-1222271.jpg">
     </div>
   </section>
-  <footer class="contact">
+
+  <footer class="contact" id="contact">
     <h3 class="contact-header">KONTAKT</h3>
     <section class="contact_call">
-      <h3>ZADZWON DO NAS</h3>
-      <p> +48 506 324 802 <br>
+      <h3>
+        ZADZWON DO NAS
+      </h3>
+      <p>
+        +48 506 324 802 <br>
         +48 572 203 764<br>
-        (also available on Telegram, whatsapp, viber)</p>
+        (also available on Telegram, whatsapp, viber)
+      </p>
       <div class="contact-social">
-        <a href="https://www.facebook.com/BielskiApartments/"><i class="fab fa-facebook-square"></i></a>
-        <a href="https://www.instagram.com/bielskiapartments/?hl=pl"><i class="fab fa-instagram"></i></a>
-        <a href="https://pl.tripadvisor.com/Profile/bielskiapartments"><i class="fab fa-tripadvisor"></i></a>
+        <a href="https://www.facebook.com/BielskiApartments/">
+          <i class="fab fa-facebook-square">
+          </i>
+        </a>
+        <a href="https://www.instagram.com/bielskiapartments/?hl=pl">
+          <i class="fab fa-instagram">
+          </i>
+        </a>
+        <a href="https://pl.tripadvisor.com/Profile/bielskiapartments">
+          <i class="fab fa-tripadvisor">
+          </i>
+        </a>
       </div>
     </section>
+
     <section class="contact-mail">
-      <h3>NAPISZ DO NAS</h3>
+      <h3>
+        NAPISZ DO NAS
+      </h3>
       <div class="form">
-        <form action="https://formspree.io/mbnbjzkm" method="POST">
-          <input type="text" name="name" id="name"  placeholder="Imję i nazwisko" required><br>
-          <input type="email" name="_replyto" id="email" placeholder="E-mail" required><br>
-          <textarea name="message" id="message" placeholder="Twoja wiadomość..." required></textarea><br>
-          <input class="button" type="submit" value="Send" id="submit">
+        <form
+        action="https://formspree.io/mbnbjzkm"
+        method="POST">
+          <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Jak się nazyasz?" required><br>
+          <input
+          type="email"
+          name="_replyto"
+          id="email"
+          placeholder="E-mail" required><br>
+          <textarea
+          name="message"
+          id="message"
+          placeholder="Przywitaj się:)" required></textarea><br>
+          <input
+          class="button"
+          type="submit"
+          value="Send"
+          id="submit">
         </form>
       </div>
     </section>
@@ -353,10 +535,17 @@
       </p>
     </section>
   </footer>
+
   <section class="map">
-      <iframe src="https://www.google.com/maps/d/embed?mid=1XPyXjIH16-5eQ65PMIJRCB-b5rzf5I3a" width="100%"
-        height="280"></iframe> </section>
-  <script src="js/main.js"></script>
+    <iframe src="http://tiny.cc/bielskiapartments"
+    width="100%"
+    height="280">
+    </iframe>
+  </section>
+
+  <script src="js/main.js">
+  </script>
+
 </body>
 
 </html>

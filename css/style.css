@@ -5,110 +5,16 @@
 body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
-}
-
-.navigation-menu {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  vertical-align: center;
-  top: 0;
-  width: 100%;
-  height: 10vh;
-  z-index: 10;
-  background-color: rgb(64, 77, 73);
-  padding: 0 20px;
-  margin: 0;
-}
-
-.navigation-menu p {
-  text-transform: capitalize;
-  color: white;
-  letter-spacing: 5px;
-  font-weight: 600;
-}
-
-.nav-links {
-  display: flex;
-  justify-content: space-around;
-  width: 65%;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.nav-links a {
-  text-decoration: none;
-  color: white;
-}
-
-.nav-links a:hover {
-  color: rgb(233, 220, 103);
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-.burger {
-  display: none;
-}
-
-.burger div {
-  margin: 5px;
-  width: 25px;
-  height: 2px;
-  background-color: white;
-  cursor: pointer;
-}
-
-@media screen and (max-width: 1120px) {
-  body {
-    overflow-x: hidden;
-  }
-
-  .nav-links {
-    position: absolute;
-    padding-left: 10px;
-    right: 0px;
-    height: 90vh;
-    top: 10vh;
-    background-color: rgb(64, 77, 73);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    transform: translateX(-100%);
-    z-index: 1;
-  }
-
-  .nav-links li {
-    opacity: 0;
-    position: relative;
-  }
-
-  .burger {
-    display: block;
-  }
-}
-
-.nav-active {
-  transform: translateX(0%);
-}
-
-@keyframes navLinkFade {
-  from {
-    opacity: 0;
-    transform: translateX(50px)
-  }
-
-  to {
-    opacity: 1;
-    transform: translateX(0px);
-  }
+  /* max-width: 1200px; */
+  background-color: #FAFAE6;
+  text-align: center;
+  vertical-align: middle;
 }
 
 /* Header */
 
 .header {
+  max-width: 1200px;
   position: relative;
   margin: 0;
   width: 100%;
@@ -123,7 +29,7 @@ body {
 }
 
 #submit {
-  background-color: rgba(233, 220, 103, 0.591);
+  background-color: rgb(233, 220, 103);
   color: rgb(64, 77, 73);
   height: auto;
   width: auto;
@@ -139,14 +45,14 @@ body {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.header button {
+.header-button {
   color: rgb(64, 77, 73);
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background-color: rgba(233, 220, 103, 0.591);
+  background-color:  rgb(233, 220, 103);
   height: auto;
   width: auto;
   border: none;
@@ -158,14 +64,14 @@ body {
   text-decoration: none;
   display: inline-block;
   font-family: 'Montserrat', sans-serif;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 4px;
 
 }
 
-.header button:hover {
-  color: rgb(233, 220, 103);
-  background-color: rgba(64, 77, 73, 0.515);
-  transition: 0.5s ease;
+.header-button:hover {
+  transition: 0.5s ease-in-out;
+  color: black;
+  font-size: 18px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -175,121 +81,44 @@ body {
 }
 
 /* O nas */
+.about{
+  max-width: 1200px;;
+  display: grid;
+  grid-template-columns: repeat(2, 1ft);
+  justify-self: center;
+  column-gap: 15px;
+  justify-self: center;
+  text-align: center
+}
+.about h3{
+  grid-column: span 2;
+}
 .about p {
   margin: 35px;
-  text-align: justify;
+  grid-column: span 1;
+}
+.about__img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  grid-column: span 1;
 }
 
 h3 {
   text-align: center;
 }
 
-.services {
-  background-color: rgb(64, 77, 73);
-  color: white;
-  display: grid;
-  padding: 0;
-  margin: 0;
-  justify-content: center;
-  grid-template-columns: repeat(6, 1fr);
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.services img {
-  height: 300px;
-  width: 300px;
-  object-fit: cover;
-  margin: 0;
-  padding: 20px;
-  margin-bottom: 20px;
-  grid-column: span 2;
-  align-self: center;
-  justify-self: center;
-}
-
-.services p {
-  word-wrap: break-word;
-  text-align: center;
-  justify-content: center;
-  text-align: center;
-}
-
-.services i {
-  text-align: center;
-}
-
-.services__heading {
-  grid-column: span 6;
-}
-
-@media screen and (max-width: 1250px) {
-  .services {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .services__heading {
-    grid-column: span 3;
-  }
-
-  .service__img2,
-  .service__img3 {
-    display: none;
-  }
-
-  .services img {
-    grid-column: span 3;
-    padding: 0;
-  }
-
-  .services i {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 660px) {
-  .services {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .services__heading {
-    grid-column: span 2;
-  }
-
-  .services p {
-    font-size: 12px;
-  }
-
-  .service__img2,
-  .service__img3 {
-    display: none;
-  }
-
-  .services img {
-    grid-column: span 2;
-    margin: 35px 0 35px 0;
-    padding: 0;
-  }
-
-  .services i {
-    display: none;
-  }
-}
-
 .rooms {
+  max-width: 1200px;
   margin: 35px;
   text-align: justify;
   display: grid;
   grid-template-columns: repeat(4, 1ft);
 }
-
-.rooms-header {
+.property-visible .property-description{
   grid-column: span 4;
 }
-
-.rooms .property-1,
-.rooms .property-2,
-.rooms .property-3,
-.rooms .property-4 {
+.rooms-header {
   grid-column: span 4;
 }
 
@@ -303,6 +132,7 @@ h3 {
   font-size: 16px;
   font-weight: 600;
   padding: 16px 20px;
+  margin-top: 20px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
@@ -311,15 +141,6 @@ h3 {
 
 }
 
-@media screen and (max-width: 1120px) {
-  .rooms .rooms-selection {
-    grid-column: span 2;
-    justify-self: center;
-    margin-top: 20px;
-    font-size: 16px;
-    width: 250px;
-    padding: 10px 20px;
-  }
 
   .rooms .property-1,
   .rooms .property-2,
@@ -327,7 +148,6 @@ h3 {
   .rooms .property-4 {
     grid-column: span 4;
   }
-}
 
 @media screen and (max-width: 600px) {
   .rooms .rooms-selection {
@@ -357,6 +177,7 @@ h3 {
 
 /* Clients container */
 .client {
+max-width: 1200px;
   background-color: rgb(64, 77, 73);
   color: white;
   display: grid;
@@ -422,6 +243,7 @@ blockquote {
   background: #efefef;
   color: #000;
   font-style: italic;
+  border-radius: 4px;
 }
 
 blockquote::before {
@@ -452,6 +274,7 @@ blockquote cite {
 
 /*footer*/
 .contact {
+  max-width: 1200px;
   display: grid;
   grid-template-columns: repeat(3, 1ft);
   text-align: center;
@@ -475,6 +298,7 @@ blockquote cite {
 form textarea {
   width: 100%;
   border: 1px solid #ccc;
+  border-radius: 4px;
 }
 .form input, .form textarea{
   padding: 10px;
@@ -503,6 +327,9 @@ form textarea {
   form .button{
     height: 20px;
   }
+}
+.map{
+  max-width: 1200px;
 }
 @media screen and (max-width: 500px) {
   .map {

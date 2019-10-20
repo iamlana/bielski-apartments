@@ -1,0 +1,126 @@
+.navigation {
+  max-width: 1200px;
+  background-color: rgb(64, 77, 73);
+  padding: 0 20px;
+}
+
+.navigation__container {
+  margin: 0 auto;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation__brand {
+  text-transform: capitalize;
+  color: white;
+  letter-spacing: 5px;
+  font-weight: 600;
+}
+
+.navigation__items {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation__items--active {
+  transform: translateX(0%);
+}
+
+.navigation__item {
+  margin-left: 20px;
+  text-align: center;
+}
+
+.navigation__item a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.navigation__item:last-child a {
+  font-weight: bold;
+}
+
+.navigation__item a:hover {
+  color: rgb(233, 220, 103);
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration-line: underline;
+}
+
+.navigation__burger {
+  display: none;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.navigation__burger div {
+  margin: 5px;
+  width: 25px;
+  height: 2px;
+  background-color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .navigation__items {
+    display: none;
+  }
+
+  .navigation--active .navigation__items {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 60px 0;
+    background-color: rgb(64, 77, 73);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+  }
+
+  .navigation__item {
+    opacity: 0;
+    position: relative;
+  }
+
+  .navigation__burger {
+    display: block;
+  }
+
+  .navigation--active .navigation__burger {
+    z-index: 2;
+    position: fixed;
+    right: 20px;
+    top: 17px;
+  }
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px)
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
