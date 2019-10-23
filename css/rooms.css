@@ -4,7 +4,6 @@
   grid-template-columns: repeat(4, 1fr);
 }
 .rooms p{
-  padding: 10px;
   margin: 0 35px;
 }
 .property-visible .property-description {
@@ -15,7 +14,7 @@
 }
 
 .room-header {
-  margin: 45px 35px 0;
+  margin: 35px;
 }
 
 .rooms .rooms-selection {

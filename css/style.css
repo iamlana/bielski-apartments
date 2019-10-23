@@ -67,9 +67,12 @@ body {
 }
 
 .header-button:hover {
-  transition: 0.5s ease-in-out;
+  transition: 0.2s ease-in-out;
   color: black;
   font-size: 18px;
+}
+.header-button:focus{
+    outline: none;
 }
 
 /* O nas */
@@ -96,8 +99,8 @@ body {
 }
 
 .about__img {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   margin: 35px;
   object-fit: cover;
   grid-column: span 1;
