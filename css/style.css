@@ -4,17 +4,14 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  margin: 0;
-  /* max-width: 1200px; */
+  margin: auto;
   background-color: #FAFAE6;
-  text-align: center;
-  vertical-align: middle;
+  max-width: 1200px;
 }
 
 /* Header */
 
 .header {
-  max-width: 1200px;
   position: relative;
   margin: 0;
   width: 100%;
@@ -52,7 +49,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background-color:  rgb(233, 220, 103);
+  background-color: rgb(233, 220, 103);
   height: auto;
   width: auto;
   border: none;
@@ -74,110 +71,45 @@ body {
   font-size: 18px;
 }
 
-@media only screen and (max-width: 600px) {
-  .header {
-    background-size: contain;
-  }
-}
-
 /* O nas */
-.about{
-  max-width: 1200px;;
+.about {
   display: grid;
+  display: flex;
+  flex-direction: column;
   grid-template-columns: repeat(2, 1ft);
   justify-self: center;
   column-gap: 15px;
   justify-self: center;
-  text-align: center
+  text-align: center;
 }
-.about h3{
+
+.about h3 {
   grid-column: span 2;
 }
+
 .about p {
+  height: 100px;
   margin: 35px;
+  text-align: justify;
   grid-column: span 1;
 }
+
 .about__img {
   width: 300px;
   height: 300px;
+  margin: 35px;
   object-fit: cover;
   grid-column: span 1;
+  vertical-align: baseline;
 }
 
 h3 {
   text-align: center;
 }
 
-.rooms {
-  max-width: 1200px;
-  margin: 35px;
-  text-align: justify;
-  display: grid;
-  grid-template-columns: repeat(4, 1ft);
-}
-.property-visible .property-description{
-  grid-column: span 4;
-}
-.rooms-header {
-  grid-column: span 4;
-}
-
-.rooms .rooms-selection {
-  background-color: rgb(233, 220, 103);
-  color: rgb(64, 77, 73);
-  width: 250px;
-  height: auto;
-  justify-self: center;
-  border: none;
-  font-size: 16px;
-  font-weight: 600;
-  padding: 16px 20px;
-  margin-top: 20px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-}
-
-
-  .rooms .property-1,
-  .rooms .property-2,
-  .rooms .property-3,
-  .rooms .property-4 {
-    grid-column: span 4;
-  }
-
-@media screen and (max-width: 600px) {
-  .rooms .rooms-selection {
-    grid-column: span 4;
-    justify-self: center;
-    margin-top: 20px;
-    font-size: 14px;
-    width: 260px;
-    padding: 10px 10px;
-  }
-}
-
-.property-1,
-.property-2,
-.property-3,
-.property-4 {
-  display: none;
-}
-
-.property-visible {
-  display: block;
-}
-
-.room-header {
-  margin-top: 45px;
-}
-
 /* Clients container */
 .client {
-max-width: 1200px;
+  margin-top: 35px;
   background-color: rgb(64, 77, 73);
   color: white;
   display: grid;
@@ -187,6 +119,7 @@ max-width: 1200px;
 
 .client-header {
   grid-column: span 3;
+  margin-top: 35px;
 }
 
 .client_picture {
@@ -215,24 +148,6 @@ max-width: 1200px;
   object-fit: cover;
 }
 
-
-@media screen and (max-width: 1200px) {
-  .client {
-    grid-template-columns: repeat(1, 1ft);
-  }
-
-  .client-header {
-    grid-column: span 1;
-  }
-
-  .client_picture {
-    display: none;
-  }
-
-  .client_opinion {
-    grid-column: span 1;
-  }
-}
 
 blockquote {
   box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
@@ -274,7 +189,6 @@ blockquote cite {
 
 /*footer*/
 .contact {
-  max-width: 1200px;
   display: grid;
   grid-template-columns: repeat(3, 1ft);
   text-align: center;
@@ -282,6 +196,7 @@ blockquote cite {
 
 .contact-header {
   grid-column: span 3;
+  margin-top: 35px;
 }
 
 .contact section {
@@ -300,40 +215,66 @@ form textarea {
   border: 1px solid #ccc;
   border-radius: 4px;
 }
-.form input, .form textarea{
+
+.form input,
+.form textarea {
   padding: 10px;
   margin: 5px;
   border: 1px black solid;
 }
+
 @media screen and (max-width: 1000px) {
+
+  .about p {
+    grid-column: span 2;
+  }
+
+  .about__img {
+
+    grid-column: span 2;
+
+  }
+
+
+  .client {
+    grid-template-columns: repeat(1, 1ft);
+  }
+
+  .client-header {
+    grid-column: span 1;
+  }
+
+  .client_picture {
+    display: none;
+  }
+
+  .client_opinion {
+    grid-column: span 1;
+  }
   .contact {
     grid-template-columns: repeat(1, 1ft);
     line-height: none;
   }
-   .contact-header{
+
+  .contact-header {
     grid-column: span 1;
   }
-  .contact-mail{
+
+  .contact-mail {
     width: 50%;
     justify-self: center;
   }
+
   .contact-social i {
     font-size: 25px;
     padding: 5px;
   }
+
   .contact section {
     line-height: 20px;
   }
-  form .button{
+
+  form .button {
     height: 20px;
-  }
-}
-.map{
-  max-width: 1200px;
-}
-@media screen and (max-width: 500px) {
-  .map {
-    height: 50vh;
-    width: 100%;
   }
 }
