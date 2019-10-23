@@ -92,6 +92,7 @@ body {
   margin: 35px;
   text-align: justify;
   grid-column: span 1;
+  height: auto;
 }
 
 .about__img {
@@ -211,7 +212,10 @@ blockquote cite {
 .contact section {
   line-height: 50px;
 }
-
+.contact a{
+  text-decoration: none;
+  color: black;
+}
 .contact-social i {
   font-size: 45px;
   padding: 20px;
@@ -243,8 +247,6 @@ form textarea {
     grid-column: span 2;
 
   }
-
-
   .client {
     grid-template-columns: repeat(1, 1ft);
   }
@@ -274,7 +276,6 @@ form textarea {
     width: 50%;
     justify-self: center;
   }
-
   .contact-social i {
     font-size: 25px;
     padding: 5px;
