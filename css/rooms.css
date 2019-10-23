@@ -3,7 +3,10 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
-
+.rooms p{
+  padding: 10px;
+  margin: 0 35px;
+}
 .property-visible .property-description {
   grid-column: span 4;
 }
@@ -51,10 +54,6 @@
     padding: 10px;
   }
 
-  .property-description {
-    padding: 10px;
-    margin: 0 35px;
-  }
 }
 
 .property-1,
