@@ -1,20 +1,16 @@
 .rooms {
   text-align: justify;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: inline;
+  justify-content: space-between;
 }
 .rooms p{
-  margin: 0 35px;
+  margin: 0 0 0 35px;
 }
-.property-visible .property-description {
-  grid-column: span 4;
-}
-.rooms-header {
-  grid-column: span 4;
-}
+
 
 .room-header {
   margin: 35px;
+  grid-column: span 2;
 }
 
 .rooms .rooms-selection {
@@ -22,37 +18,17 @@
   color: rgb(64, 77, 73);
   width: 250px;
   height: auto;
+  margin: 10px;
   border-radius: 4px;
-  justify-self: center;
   border: none;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
-  padding: 16px 20px;
+  padding: 16px 0;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   box-shadow:rgba(0, 0, 0, 0.2)
-}
-
-
-.rooms .property-1,
-.rooms .property-2,
-.rooms .property-3,
-.rooms .property-4 {
-  grid-column: span 4;
-}
-
-@media screen and (max-width: 1000px) {
-  .rooms .rooms-selection {
-    grid-column: span 4;
-    justify-self: center;
-    margin-top: 20px;
-    font-size: 14px;
-    width: 260px;
-    padding: 10px;
-  }
-
 }
 
 .property-1,
@@ -63,5 +39,10 @@
 }
 
 .property-visible {
-  display: block;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
+
+/* @media screen and (max-width: 1000px){
+
+} */
