@@ -27,6 +27,8 @@
 .room--visible {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  padding: 0 15px;
+  column-gap: 15px;
 }
 
 .room__header {
@@ -37,4 +39,31 @@
 .rooms__description {
   grid-column: span 1;
   margin: 0 0 0 35px;
+}
+
+.rooms .slideshow {
+  justify-self: center;
+  max-height: 500px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .rooms .slideshow {
+    width: 300px;
+    max-height: 300px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .room {
+    grid-template-columns: 1fr;
+    row-gap: 15px;
+  }
+
+  .room__header {
+    grid-column: span 1;
+  }
+
+  .rooms .slideshow {
+    width: 100%;
+  }
 }
