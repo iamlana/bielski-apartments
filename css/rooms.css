@@ -1,0 +1,40 @@
+.rooms__selection {
+  display: inline;
+  text-align: center;
+}
+
+.rooms__selection-button {
+  background-color: rgb(233, 220, 103);
+  color: rgb(64, 77, 73);
+  width: 250px;
+  height: auto;
+  margin: 10px;
+  padding: 16px 0;
+  border-radius: 4px;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.2)
+}
+
+.room {
+  display: none;
+}
+
+.room--visible {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.room__header {
+  margin: 35px;
+  grid-column: span 2;
+}
+
+.rooms__description {
+  grid-column: span 1;
+  margin: 0 0 0 35px;
+}
