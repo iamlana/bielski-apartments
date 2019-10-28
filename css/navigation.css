@@ -110,11 +110,11 @@
     right: 20px;
     top: 17px;
   }
- 
+
 
 }
 
-@keyframes navLinkFade {
+@keyframes slide-and-fade {
   from {
     opacity: 0;
     transform: translateX(50px);
