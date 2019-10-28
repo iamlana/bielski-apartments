@@ -1,7 +1,57 @@
+.rooms {
+  text-align: justify;
+  display: inline;
+  justify-content: space-between;
+}
+
+.rooms-selection {
+  background-color: rgb(233, 220, 103);
+  color: rgb(64, 77, 73);
+  width: 250px;
+  height: auto;
+  margin: 10px;
+  padding: 16px 0;
+  border-radius: 4px;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.2)
+}
+
+.property-1,
+.property-2,
+.property-3,
+.property-4 {
+  display: none;
+}
+
+.property-visible {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+
+.room-header {
+  margin: 35px;
+  grid-column: span 2;
+}
+
+.rooms p {
+  grid-column: span 1;
+  margin: 0 0 0 35px;
+}
+
+/* Slideshow */
+
 .slideshow {
+  grid-column: span 1;
   position: relative;
   margin: auto;
-  width: 300px;
+  width: 500px;
+
 }
 
 .slideshow::after {
@@ -11,31 +61,29 @@
 
 }
 
-/* @media only screen and (max-width: 500px) {
-  .slideshow {
-    width: 100%;
-  }
-} */
-
 .slideshow__slide {
   display: none;
 }
 
 .slideshow__slide {
   position: absolute;
-  width: 300px;
-  height: 300px; /*  width-height 100% */
-  animation: fade 1.5s;
+  width: 100%;
+  height: 100%;
+  animation: fade 1.2s;
 }
 
 .slideshow__slide img {
-  vertical-align: middle;
+  /* vertical-align: middle;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  align-self: center;
   justify-self: center;
-  position: absolute;
+  top: 0; */
   width: 100%;
   height: 100%;
-  left: 0;
-  top: 0;
+  position: absolute;
   object-fit: cover;
 }
 
@@ -43,6 +91,7 @@
   from {
     opacity: .4;
   }
+
   to {
     opacity: 1;
   }
@@ -75,4 +124,22 @@
 .slideshow__prev:hover,
 .slideshow__next:hover {
   background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media screen and (max-width: 600px) {
+  .rooms p {
+    grid-column: span 2;
+    margin: 0 35px 0 35px;
+  }
+
+  .slideshow {
+    grid-column: span 2;
+    margin: 0 35px 0 35px;
+    width: auto;
+  }
+
+  .slideshow__slide img {
+    width: 300px;
+    height: 300px;
+  }
 }

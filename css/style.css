@@ -44,7 +44,6 @@ body {
 }
 
 .header-button {
-  color: rgb(64, 77, 73);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -59,7 +58,6 @@ body {
   padding: 16px 30px;
   cursor: pointer;
   text-align: center;
-  text-decoration: none;
   display: inline-block;
   font-family: 'Montserrat', sans-serif;
   border-radius: 4px;
@@ -81,11 +79,11 @@ body {
 /* O nas */
 .about {
   display: grid;
-  grid-template-columns: repeat(2, 1ft);
-  justify-self: center;
-  column-gap: 15px;
+  grid-template-columns: repeat(2, 1fr);
+  flex-direction: row;
   justify-self: center;
   text-align: center;
+  height: auto;
 }
 
 
@@ -94,28 +92,30 @@ body {
 }
 
 .about p {
-  height: 100px;
-  margin: 35px;
+  margin: 0 35px 10px 35px;
   text-align: justify;
   grid-column: span 1;
-  height: auto;
+  height: 135px;
 }
 
 .about__img {
-  width: 250px;
-  height: 250px;
-  margin: 35px;
+  width: 300px;
+  height: 300px;
   object-fit: cover;
+  margin: 10px 10px 0 10px;
   grid-column: span 1;
-  vertical-align: baseline;
 }
 @media screen and (max-width: 760px) {
   .about {
     display: flex;
     flex-direction: column;
   }
-  .about p, .about__img{
+  .about p{
     margin: 15px 35px;
+    height: auto;
+  }
+  .about__img{
+    margin: 15px 10px;
   }
 }
 
@@ -212,7 +212,7 @@ blockquote cite {
 
 .contact-header {
   grid-column: span 3;
-  margin-top: 35px;
+  margin-top: 15px;
 }
 
 .contact section {
