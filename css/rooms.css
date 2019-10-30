@@ -63,11 +63,12 @@
   .room__header {
     grid-column: span 1;
   }
+  
+  .room__description{
+  margin: 35px;
+  }
 
   .rooms .slideshow {
     width: 100%;
   }
 }
-/* .room__description{
-  margin: 35px;
-} */
