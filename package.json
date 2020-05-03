@@ -1,0 +1,14 @@
+{
+  "name": "multi-language",
+  "private": true,
+  "scripts": {
+    "start": "jolt-server -r dist",
+    "build": "node build.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ejs": "^3.1.2",
+    "fs-extra": "^9.0.0",
+    "jolt-server": "^1.0.1"
+  }
+}

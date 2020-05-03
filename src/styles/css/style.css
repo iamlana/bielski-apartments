@@ -75,6 +75,19 @@ body {
 .header-button:focus{
     outline: none;
 }
+.language__selection-button{
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1ft);
+  text-align: center;
+  border: none;
+  background-color: rgb(233, 220, 103);
+}
+.language__selection-button a{
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
 
 /* O nas */
 .about {

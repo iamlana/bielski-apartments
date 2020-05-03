@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://kit.fontawesome.com/6fce4c6e74.js"></script>
+  <link rel="stylesheet" href="styles/css/style.css">
+  <link rel="stylesheet" href="styles/css/navigation.css">
+  <link rel="stylesheet" href="styles/css/services.css">
+  <link rel="stylesheet" href="styles/css/rooms.css">
+  <link rel="stylesheet" href="styles/css/slideshow.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
+  <title>Bielski Apartments</title>
+</head>
+
+<body>
+  <nav class="navigation">
+    <div class="navigation__container">
+      <div class="navigation__brand">
+        Bielski Apartments
+      </div>
+      <ul class="navigation__items">
+        <li class="navigation__item">
+          <a href="#about"><%=about_nav%></a>
+        </li>
+        <li class="navigation__item">
+          <a href="#services"><%=services_nav%></a>
+        </li>
+        <li class="navigation__item">
+          <a href="#rooms"><%=rooms_nav%></a>
+        </li>
+        <li class="navigation__item">
+          <a href="#opinions"><%=opinions_nav%></a>
+        </li>
+        <li class="navigation__item">
+          <a href="#contact"><%=contact_nav%></a>
+        </li>
+        <li class="navigation__item">
+          <a href="tel:+48123123123">
+            <i class="fa fa-phone-alt"></i> +48 572 203 764
+          </a>
+        </li>
+      </ul>
+      <button class="navigation__burger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </button>
+    </div>
+  </nav>
+
+  <header class="header">
+    <img src="./styles/css/img/hero-background.jpg" alt="">
+    <section class="header__item">
+      <button class="header-button">
+        <a href="#contact"><%=book%></a>
+      </button>
+    </section>
+    <% if (language !== 'en') { %>
+    <button class="language__selection-button"><a href="/en"><%= languages.en %></a></button>
+    <% } %>
+    <% if (language !== 'ru') { %>
+    <button class="language__selection-button"><a href="/ru"><%= languages.ru %></a></button>
+    <% } %>
+    <% if (language !== 'no') { %>
+    <button class="language__selection-button"><a href="/no"><%= languages.no %></a></button>
+    <% } %>
+  </header>
+
+  <section class="about" id="about">
+    <h3 class="heading about__heading">
+      <%=about_header%>
+    </h3>
+    <article class="about__item">
+      <p class="about__item-text"><%=about_description_1%></p>
+      <img class="about__img" src="./styles/css/img/properties/property-1/179413267.jpg" alt="Gdansk">
+    </article>
+    <article class="about__item">
+      <p class="about__item-text"><%=about_description_2%></p>
+      <!-- TODO: Add image here -->
+      <img class="about__img" src="./styles/css/img/properties/property-1/178929294.jpg" alt="Gdansk">
+    </article>
+  </section>
+
+  <section class="services" id="services">
+    <div class="services__container">
+      <h3 class="services__heading"><%=services_nav%></h3>
+
+      <ul class="services__list">
+        <li class="services__list-item">
+          <span><%=services_food%></span>
+          <i class="fas fa-coffee"></i>
+        </li>
+        <li class="services__list-item">
+          <span><%=services_sightseeing%></span>
+          <i class="fas fa-map"></i>
+        </li>
+        <li class="services__list-item">
+          <span><%=services_transfer%></span>
+          <i class="fas fa-parking"></i>
+        </li>
+        <li class="services__list-item">
+          <span><%=services_cot%></span>
+          <i class="fas fa-bed"></i>
+        </li>
+        <li class="services__list-item">
+          <span><%=services_fireplace%></span>
+          <i class="fas fa-fire"></i>
+        </li>
+        <li class="services__list-item">
+          <span><%=services_wifi%></span>
+          <i class="fas fa-tv"></i>
+        </li>
+      </ul>
+
+      <ul class="services__images">
+        <li><img class="services__image" src="./styles/css/img/Kubek_kawy.jpg" alt="Kubek kawy" /></li>
+        <li><img class="services__image" src="./styles/css/img/Balkon.jpg" alt="Balkon" /></li>
+        <li><img class="services__image" src="./styles/css/img/Kaszubska_kuchnia.jpg" alt="Kaszubska kuchnia" /></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="rooms" id="rooms">
+    <h3 class="rooms__header"><%=rooms_nav%></h3>
+
+    <div class="rooms__selection">
+      <button class="rooms__selection-button">
+        <%=room_spichrzowa_button%>
+      </button>
+      <button class="rooms__selection-button">
+        <%=room_katarzynki_button%>
+      </button>
+      <button class="rooms__selection-button">
+        <%=room_lawendowa_button%>
+      </button>
+      <button class="rooms__selection-button">
+        <%=room_ogarna_button%>
+      </button>
+    </div>
+
+    <div class="room">
+      <h3 class="room__header">
+        <%=room_spichrzowa_header%>
+      </h3>
+      <div class="room__description">
+        <%=room_spichrzowa_description%><br />
+        <ul>
+          <li>parking</li>
+          <li>bezpłatne WiFi</li>
+          <li>zwierzęta domowe są akceptowane</li>
+          <li>pokoje rodzinne</li>
+          <li>transfer lotniskowy</li>
+          <li>pokoje dla niepalących</li>
+          <li>kapcie</li>
+          <li>zestaw ręczników</li>
+          <li>całkowity zakaz palenia</li>
+        </ul>
+      </div>
+      <div class="slideshow">
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-1/171086401.jpg">
+        </div>
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-1/171246438.jpg">
+        </div>
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-1/178816451.jpg">
+        </div>
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-1/178821809.jpg">
+        </div>
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-1/178927675.jpg">
+        </div>
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-1/178928480.jpg">
+        </div>
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-1/178929294.jpg">
+        </div>
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-1/178933233.jpg">
+        </div>
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-1/179413267.jpg">
+        </div>
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-1/186557390.jpg">
+        </div>
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-1/186557400.jpg">
+        </div>
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-1/214166009.jpg">
+        </div>
+        <button class="slideshow__prev"><i class="fa fa-chevron-left"></i></button>
+        <button class="slideshow__next"><i class="fa fa-chevron-right"></i></button>
+      </div>
+    </div>
+
+    <div class="room">
+      <h3 class="room__header">
+        <%=room_katarzynki_header%>
+      </h3>
+      <div class="room__description">
+        <%=room_katarzynki_description%><br />
+        <ul>
+          <li>parking *City parking is paid only during the daytime from 09:00 till 17:00. Parking on weekends is free.
+          </li>
+          <li>free WiFi</li>
+          <li>zwierzęta domowe są akceptowane</li>
+          <li>pokoje rodzinne</li>
+          <li>transfer lotniskowy</li>
+          <li>pokoje dla niepalących</li>
+          <li>kapcie</li>
+          <li>zestaw ręczników</li>
+          <li>całkowity zakaz palenia</li>
+        </ul>
+      </div>
+      <div class="slideshow">
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-2/143584660.jpg">
+        </div>
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-2/143906340.jpg">
+        </div>
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-2/179410871.jpg">
+        </div>
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-2/179411266.jpg">
+        </div>
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-2/179411563.jpg">
+        </div>
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-2/179412256.jpg">
+        </div>
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-2/179414231.jpg">
+        </div>
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-2/191576290.jpg">
+        </div>
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-2/191576330.jpg">
+        </div>
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-2/215368049.jpg">
+        </div>
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-2/179412208.jpg">
+        </div>
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-2/179412756.jpg">
+        </div>
+        <button class="slideshow__prev"><i class="fa fa-chevron-left"></i></button>
+        <button class="slideshow__next"><i class="fa fa-chevron-right"></i></button>
+      </div>
+    </div>
+
+    <div class="room">
+      <h3 class="room__header">
+        <%=room_lawendowa_header%>
+      </h3>
+      <div class="room__description">
+        <%=room_lawendowa_description%>
+        <br />
+        <ul>
+          <li>parking</li>
+          <li>bezpłatne WiFi</li>
+          <li>zwierzęta domowe są akceptowane</li>
+          <li>pokoje rodzinne</li>
+          <li>transfer lotniskowy</li>
+          <li>pokoje dla niepalących</li>
+          <li>kapcie</li>
+          <li>zestaw ręczników</li>
+          <li>całkowity zakaz palenia</li>
+        </ul>
+      </div>
+
+      <div class="slideshow">
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-3/193903070.jpg">
+        </div>
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-3/193905212.jpg">
+        </div>
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-3/193905252.jpg">
+        </div>
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-3/193905277.jpg">
+        </div>
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-3/193905282.jpg">
+        </div>
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-3/193905291.jpg">
+        </div>
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-3/193905300.jpg">
+        </div>
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-3/215226844.jpg">
+        </div>
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-3/215364577.jpg">
+        </div>
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-3/215364581.jpg">
+        </div>
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-3/215364933.jpg">
+        </div>
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-3/215364970.jpg">
+        </div>
+        <button class="slideshow__prev"><i class="fa fa-chevron-left"></i></button>
+        <button class="slideshow__next"><i class="fa fa-chevron-right"></i></button>
+      </div>
+    </div>
+
+    <div class="room">
+      <h3 class="room__header">
+        <%=room_ogarna_header%>
+      </h3>
+      <div class="room__description">
+        <%=room_ogarna_description%><br />
+        <ul>
+          <li>parking</li>
+          <li>bezpłatne WiFi</li>
+          <li>zwierzęta domowe są akceptowane</li>
+          <li>pokoje rodzinne</li>
+          <li>transfer lotniskowy</li>
+          <li>pokoje dla niepalących</li>
+          <li>kapcie</li>
+          <li>zestaw ręczników</li>
+          <li>całkowity zakaz palenia</li>
+        </ul>
+      </div>
+      <div class="slideshow">
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-4/210588154.jpg">
+        </div>
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-4/210588167.jpg">
+        </div>
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-4/210588173.jpg">
+        </div>
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-4/210588178.jpg">
+        </div>
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-4/210588182.jpg">
+        </div>
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-4/210588188.jpg">
+        </div>
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-4/210588191.jpg">
+        </div>
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-4/210588198.jpg">
+        </div>
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-4/210588200.jpg">
+        </div>
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-4/211008962.jpg">
+        </div>
+        <div class="slideshow__slide">
+          <img src="./styles/css/img/properties/property-4/211008974.jpg">
+        </div>
+        <button class="slideshow__prev"><i class="fa fa-chevron-left"></i></button>
+        <button class="slideshow__next"><i class="fa fa-chevron-right"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <section class="client" id="opinions">
+    <h3 class="client-header">
+      <%=opinions_nav%>
+    </h3>
+    <blockquote>
+      <p class="client_opinion">
+        Thank you for warm welcome, we really enjoyed staying at your place. It
+        was very clean, nicely decorated, confortable with all things you would
+        need and most important in very good location. Thank you for hosting us!
+      </p>
+      <cite>
+        Samanta, NY
+      </cite>
+    </blockquote>
+    <blockquote>
+      <p class="client_opinion">
+        Pan Sergej to miły i konkretny właściciel. Mieszkanie bardzo czyściutkie
+        i ładne. Dodatkowo w idealnej lokalizacji , na pewno jeszcze tam
+        wrócimy :)
+      </p>
+      <cite>
+        Agnieszka, Warszawa
+      </cite>
+    </blockquote>
+
+    <blockquote>
+      <p class="client_opinion">
+        Wonderful place to stay. Good location, clean and very cozy apartment.
+        Save and clean place for traveling with the children. They even have
+        some toys. Also we were pleased to found some strawberries to eat on the
+        table.</p>
+      <cite>
+        Jean, Marseille
+      </cite>
+    </blockquote>
+    <div class="client_picture">
+      <img src="./styles/css/img/clients/attractive-beautiful-casual-1082962.jpg">
+    </div>
+    <div class="client_picture">
+      <img src="./styles/css/img/clients/beautiful-brunette-cute-774909.jpg">
+    </div>
+    <div class="client_picture">
+      <img src="./styles/css/img/clients/boy-casual-eyes-1222271.jpg">
+    </div>
+  </section>
+
+  <footer class="contact" id="contact">
+    <h3 class="contact-header"><%=contact_nav%></h3>
+    <section class="contact_call">
+      <h3>
+        <%=call_us%>
+      </h3>
+      <p>
+        <a href="tel:+48572203764">
+          <i class="fa fa-phone-alt"></i>
+          +48 506 324 802 <br>
+        </a>
+        <a href="tel:+48572203764">
+          <i class="fa fa-phone-alt"></i>
+          +48 572 203 764<br></a>
+        (also available on Telegram, whatsapp, viber)
+      </p>
+      <div class="contact-social">
+        <a href="https://www.facebook.com/BielskiApartments/">
+          <i class="fab fa-facebook-square">
+          </i>
+        </a>
+        <a href="https://www.instagram.com/bielskiapartments/?hl=pl">
+          <i class="fab fa-instagram">
+          </i>
+        </a>
+        <a href="https://pl.tripadvisor.com/Profile/bielskiapartments">
+          <i class="fab fa-tripadvisor">
+          </i>
+        </a>
+      </div>
+    </section>
+
+    <section class="contact-mail">
+      <h3>
+       <%=text_us%>
+      </h3>
+      <div class="form">
+        <form action="https://formspree.io/ann.lookyanova@gmail.com" method="POST">
+          <input type="text" name="name" id="name" placeholder="Jak się nazywasz?" required><br>
+          <input type="email" name="_replyto" id="email" placeholder="E-mail" required><br>
+          <textarea name="message" id="message" placeholder="Przywitaj się:)" required></textarea><br>
+          <input class="button" type="submit" value="Send" id="submit">
+        </form>
+      </div>
+    </section>
+    <section class="contact-direction">
+      <h3><%=how_to_get%></h3>
+      <p><%=room_spichrzowa_button%><br>
+        <%=room_katarzynki_button%><br>
+        <%=room_lawendowa_button%><br>
+        <%=room_ogarna_button%>
+      </p>
+    </section>
+  </footer>
+  <p><%=transfer_offer%></p>
+  <section class="map">
+    <iframe src="https://www.google.com/maps/d/embed?mid=1XPyXjIH16-5eQ65PMIJRCB-b5rzf5I3a" width="100%" height="280">
+    </iframe>
+  </section>
+
+  <script src="./script/js/rooms.js"></script>
+  <script src="./script/js/navigation.js"></script>
+  <script src="./script/js/slideshow.js"></script>
+</body>
+
+</html>
