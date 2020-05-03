@@ -63,9 +63,9 @@
   .room__header {
     grid-column: span 1;
   }
-  
+
   .room__description{
-  margin: 35px;
+  margin: 0 35px 35px 35px;
   }
 
   .rooms .slideshow {
