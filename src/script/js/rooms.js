@@ -1,10 +1,10 @@
 setupRooms(document.querySelector('.rooms'));
 
-function setupRooms (roomsSection) {
+function setupRooms(roomsSection) {
   const rooms = roomsSection.querySelectorAll('.room');
   const buttons = roomsSection.querySelectorAll('.rooms__selection-button');
 
-  function showRoom (index) {
+  function showRoom(index) {
     rooms.forEach((room) => {
       room.classList.remove('room--visible');
     });
@@ -17,3 +17,19 @@ function setupRooms (roomsSection) {
     button.addEventListener('click', () => showRoom(index));
   });
 }
+
+
+showAdditionalInfo()
+
+function showAdditionalInfo() {
+  let information = document.querySelectorAll('.room__description__more')
+
+  information.forEach((info) => {
+    if (info.style.display === "none") {
+      info.style.display = "block";
+        } else {
+          info.style.display = "none";
+        }
+  })
+}
+

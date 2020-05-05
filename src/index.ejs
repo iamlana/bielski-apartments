@@ -54,19 +54,21 @@
   <header class="header">
     <img src="./styles/css/img/hero-background.jpg" alt="">
     <section class="header__item">
+      <div class="header-button__languages">
+        <% if (language !== 'en') { %>
+        <button ><a href="/en"><%= languages.en %></a></button>
+        <% } %>
+        <% if (language !== 'ru') { %>
+        <button><a href="/ru"><%= languages.ru %></a></button>
+        <% } %>
+        <% if (language !== 'no') { %>
+        <button><a href="/no"><%= languages.no %></a></button>
+        <% } %>
+      </div>
       <button class="header-button">
         <a href="#contact"><%=book%></a>
       </button>
     </section>
-    <% if (language !== 'en') { %>
-    <button class="language__selection-button"><a href="/en"><%= languages.en %></a></button>
-    <% } %>
-    <% if (language !== 'ru') { %>
-    <button class="language__selection-button"><a href="/ru"><%= languages.ru %></a></button>
-    <% } %>
-    <% if (language !== 'no') { %>
-    <button class="language__selection-button"><a href="/no"><%= languages.no %></a></button>
-    <% } %>
   </header>
 
   <section class="about" id="about">
@@ -87,7 +89,6 @@
   <section class="services" id="services">
     <div class="services__container">
       <h3 class="services__heading"><%=services_nav%></h3>
-
       <ul class="services__list">
         <li class="services__list-item">
           <span><%=services_food%></span>
@@ -158,6 +159,8 @@
           <li>zestaw ręczników</li>
           <li>całkowity zakaz palenia</li>
         </ul>
+        <button onclick="showAdditionalInfo()"><%=room_more_information_button%></button>
+        <p class="room__description__more"><%=room_spichrzowa_more_description%></p>
       </div>
       <div class="slideshow">
         <div class="slideshow__slide">
@@ -219,6 +222,8 @@
           <li>zestaw ręczników</li>
           <li>całkowity zakaz palenia</li>
         </ul>
+        <button onclick="showAdditionalInfo()"><%=room_more_information_button%></button>
+        <p class="room__description__more"><%=room_katarzynki_more_description%></p>
       </div>
       <div class="slideshow">
         <div class="slideshow__slide">
@@ -280,6 +285,8 @@
           <li>zestaw ręczników</li>
           <li>całkowity zakaz palenia</li>
         </ul>
+        <button onclick="showAdditionalInfo()"><%=room_more_information_button%></button>
+        <p class="room__description__more"><%=room_lawendowa_more_description%></p>
       </div>
 
       <div class="slideshow">
@@ -341,6 +348,8 @@
           <li>zestaw ręczników</li>
           <li>całkowity zakaz palenia</li>
         </ul>
+        <button onclick="showAdditionalInfo()"><%=room_more_information_button%></button>
+        <p class="room__description__more"><%=room_ogarna_more_description%></p>
       </div>
       <div class="slideshow">
         <div class="slideshow__slide">

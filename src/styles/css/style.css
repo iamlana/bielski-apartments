@@ -26,6 +26,31 @@ body {
   object-fit: cover;
 }
 
+.header-button__languages {
+  display: grid;
+  grid-template-columns: repeat(2, 1ft);
+  position: absolute;
+  height: auto;
+  width: auto;
+  top: 20px;
+  right: 5%;
+}
+.header-button__languages a{
+  text-decoration: none;
+  color: black;
+}
+
+.header-button__languages  button{
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: rgb(233, 220, 103);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 #submit {
   background-color: rgb(233, 220, 103);
   color: rgb(64, 77, 73);
@@ -63,27 +88,23 @@ body {
   border-radius: 4px;
 
 }
-.header-button a{
+
+.header-button a {
   text-decoration: none;
   color: black;
 }
+
 .header-button:hover {
   transition: 0.2s ease-in-out;
   color: black;
   font-size: 18px;
 }
-.header-button:focus{
-    outline: none;
+
+.header-button:focus {
+  outline: none;
 }
-.language__selection-button{
-  position: relative;
-  display: grid;
-  grid-template-columns: repeat(3, 1ft);
-  text-align: center;
-  border: none;
-  background-color: rgb(233, 220, 103);
-}
-.language__selection-button a{
+
+.language__selection-button a {
   text-decoration: none;
   color: black;
   font-size: 16px;
@@ -118,16 +139,19 @@ body {
   margin: 10px 10px 0 10px;
   grid-column: span 1;
 }
+
 @media screen and (max-width: 760px) {
   .about {
     display: flex;
     flex-direction: column;
   }
-  .about p{
+
+  .about p {
     margin: 15px 35px;
     height: auto;
   }
-  .about__img{
+
+  .about__img {
     margin: 15px 10px;
   }
 }
@@ -219,7 +243,7 @@ blockquote cite {
 /*footer*/
 .contact {
   display: grid;
-  grid-template-columns: repeat(3, 1ft);
+  grid-template-columns: minmax(33%, 300px);
   text-align: center;
 }
 
@@ -231,10 +255,12 @@ blockquote cite {
 .contact section {
   line-height: 50px;
 }
-.contact a{
+
+.contact a {
   text-decoration: none;
   color: black;
 }
+
 .contact-social i {
   font-size: 45px;
   padding: 20px;
@@ -251,7 +277,6 @@ form textarea {
 .form input,
 .form textarea {
   padding: 10px;
-  margin: 5px;
   border: 1px black solid;
 }
 
@@ -266,6 +291,7 @@ form textarea {
     grid-column: span 2;
 
   }
+
   .client {
     grid-template-columns: repeat(1, 1ft);
   }
@@ -283,7 +309,7 @@ form textarea {
   }
 
   .contact {
-    grid-template-columns: repeat(1, 1ft);
+    grid-template-columns: minmax(100%, 250px);
     line-height: none;
   }
 
@@ -295,6 +321,7 @@ form textarea {
     width: 50%;
     justify-self: center;
   }
+
   .contact-social i {
     font-size: 25px;
     padding: 5px;

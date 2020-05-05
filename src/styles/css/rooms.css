@@ -42,6 +42,9 @@
 .rooms__description {
   grid-column: span 1;
 }
+.room__description__more{
+  display: none;
+}
 
 .rooms .slideshow {
   justify-self: center;
