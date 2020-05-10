@@ -6,11 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="https://kit.fontawesome.com/6fce4c6e74.js"></script>
-  <link rel="stylesheet" href="styles/css/style.css">
-  <link rel="stylesheet" href="styles/css/navigation.css">
-  <link rel="stylesheet" href="styles/css/services.css">
-  <link rel="stylesheet" href="styles/css/rooms.css">
-  <link rel="stylesheet" href="styles/css/slideshow.css">
+  <link rel="stylesheet" href="./styles/css/style.css">
+  <link rel="stylesheet" href="./styles/css/navigation.css">
+  <link rel="stylesheet" href="./styles/css/services.css">
+  <link rel="stylesheet" href="./styles/css/rooms.css">
+  <link rel="stylesheet" href="./styles/css/slideshow.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
   <title>Bielski Apartments</title>
 </head>
@@ -56,13 +56,13 @@
     <section class="header__item">
       <div class="header-button__languages">
         <% if (language !== 'en') { %>
-        <button ><a href="/en"><%= languages.en %></a></button>
+        <button ><a href="/en"><img src="./styles/css/icons/english.svg"></a></button>
         <% } %>
         <% if (language !== 'ru') { %>
-        <button><a href="/ru"><%= languages.ru %></a></button>
+        <button><a href="/ru"><img src="./styles/css/icons/russian.png"></a></button>
         <% } %>
         <% if (language !== 'no') { %>
-        <button><a href="/no"><%= languages.no %></a></button>
+        <button><a href="/no"><img src="./styles/css/icons/norwegian.svg"></a></button>
         <% } %>
       </div>
       <button class="header-button">
@@ -115,7 +115,6 @@
           <i class="fas fa-tv"></i>
         </li>
       </ul>
-
       <ul class="services__images">
         <li><img class="services__image" src="./styles/css/img/Kubek_kawy.jpg" alt="Kubek kawy" /></li>
         <li><img class="services__image" src="./styles/css/img/Balkon.jpg" alt="Balkon" /></li>
@@ -141,26 +140,12 @@
         <%=room_ogarna_button%>
       </button>
     </div>
-
     <div class="room">
       <h3 class="room__header">
         <%=room_spichrzowa_header%>
       </h3>
       <div class="room__description">
         <%=room_spichrzowa_description%><br />
-        <ul>
-          <li>parking</li>
-          <li>bezpłatne WiFi</li>
-          <li>zwierzęta domowe są akceptowane</li>
-          <li>pokoje rodzinne</li>
-          <li>transfer lotniskowy</li>
-          <li>pokoje dla niepalących</li>
-          <li>kapcie</li>
-          <li>zestaw ręczników</li>
-          <li>całkowity zakaz palenia</li>
-        </ul>
-        <button onclick="showAdditionalInfo()"><%=room_more_information_button%></button>
-        <p class="room__description__more"><%=room_spichrzowa_more_description%></p>
       </div>
       <div class="slideshow">
         <div class="slideshow__slide">
@@ -202,6 +187,8 @@
         <button class="slideshow__prev"><i class="fa fa-chevron-left"></i></button>
         <button class="slideshow__next"><i class="fa fa-chevron-right"></i></button>
       </div>
+      <button class="room__description-button  more-button"><%=room_more_information_button%></button>
+      <p class="room__description-more"><%=room_spichrzowa_more_description%></p>
     </div>
 
     <div class="room">
@@ -210,20 +197,6 @@
       </h3>
       <div class="room__description">
         <%=room_katarzynki_description%><br />
-        <ul>
-          <li>parking *City parking is paid only during the daytime from 09:00 till 17:00. Parking on weekends is free.
-          </li>
-          <li>free WiFi</li>
-          <li>zwierzęta domowe są akceptowane</li>
-          <li>pokoje rodzinne</li>
-          <li>transfer lotniskowy</li>
-          <li>pokoje dla niepalących</li>
-          <li>kapcie</li>
-          <li>zestaw ręczników</li>
-          <li>całkowity zakaz palenia</li>
-        </ul>
-        <button onclick="showAdditionalInfo()"><%=room_more_information_button%></button>
-        <p class="room__description__more"><%=room_katarzynki_more_description%></p>
       </div>
       <div class="slideshow">
         <div class="slideshow__slide">
@@ -265,6 +238,8 @@
         <button class="slideshow__prev"><i class="fa fa-chevron-left"></i></button>
         <button class="slideshow__next"><i class="fa fa-chevron-right"></i></button>
       </div>
+      <button class="room__description-button  more-button"><%=room_more_information_button%></button>
+        <p class="room__description-more"><%=room_katarzynki_more_description%></p>
     </div>
 
     <div class="room">
@@ -273,20 +248,6 @@
       </h3>
       <div class="room__description">
         <%=room_lawendowa_description%>
-        <br />
-        <ul>
-          <li>parking</li>
-          <li>bezpłatne WiFi</li>
-          <li>zwierzęta domowe są akceptowane</li>
-          <li>pokoje rodzinne</li>
-          <li>transfer lotniskowy</li>
-          <li>pokoje dla niepalących</li>
-          <li>kapcie</li>
-          <li>zestaw ręczników</li>
-          <li>całkowity zakaz palenia</li>
-        </ul>
-        <button onclick="showAdditionalInfo()"><%=room_more_information_button%></button>
-        <p class="room__description__more"><%=room_lawendowa_more_description%></p>
       </div>
 
       <div class="slideshow">
@@ -329,27 +290,15 @@
         <button class="slideshow__prev"><i class="fa fa-chevron-left"></i></button>
         <button class="slideshow__next"><i class="fa fa-chevron-right"></i></button>
       </div>
+      <button class="room__description-button more-button"><%=room_more_information_button%></button>
+      <p class="room__description-more"><%=room_lawendowa_more_description%></p>
     </div>
-
     <div class="room">
       <h3 class="room__header">
         <%=room_ogarna_header%>
       </h3>
       <div class="room__description">
         <%=room_ogarna_description%><br />
-        <ul>
-          <li>parking</li>
-          <li>bezpłatne WiFi</li>
-          <li>zwierzęta domowe są akceptowane</li>
-          <li>pokoje rodzinne</li>
-          <li>transfer lotniskowy</li>
-          <li>pokoje dla niepalących</li>
-          <li>kapcie</li>
-          <li>zestaw ręczników</li>
-          <li>całkowity zakaz palenia</li>
-        </ul>
-        <button onclick="showAdditionalInfo()"><%=room_more_information_button%></button>
-        <p class="room__description__more"><%=room_ogarna_more_description%></p>
       </div>
       <div class="slideshow">
         <div class="slideshow__slide">
@@ -388,6 +337,8 @@
         <button class="slideshow__prev"><i class="fa fa-chevron-left"></i></button>
         <button class="slideshow__next"><i class="fa fa-chevron-right"></i></button>
       </div>
+      <button class="room__description-button  more-button"><%=room_more_information_button%></button>
+      <p class="room__description-more"><%=room_ogarna_more_description%></p>
     </div>
   </section>
 

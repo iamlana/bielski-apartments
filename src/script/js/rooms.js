@@ -22,14 +22,12 @@ function setupRooms(roomsSection) {
 showAdditionalInfo()
 
 function showAdditionalInfo() {
-  let information = document.querySelectorAll('.room__description__more')
-
-  information.forEach((info) => {
-    if (info.style.display === "none") {
-      info.style.display = "block";
-        } else {
-          info.style.display = "none";
-        }
+  const buttons = document.querySelectorAll('.room__description-button')
+  buttons.forEach(button => {
+    const more = button.parentElement.querySelector('.room__description-more')
+    button.addEventListener('click', () => {
+      more.classList.toggle('room__description-more--visible')
+    })
   })
 }
 
