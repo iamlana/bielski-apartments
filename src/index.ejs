@@ -42,6 +42,21 @@
             <i class="fa fa-phone-alt"></i> +48 572 203 764
           </a>
         </li>
+        <li class="header-button__languages navigation__item">
+          <% if (language !== 'en') { %>
+          <a href="/en"><img src="./styles/css/icons/english.svg"></a>
+          <% } %>
+        </li>
+        <li class="header-button__languages navigation__item">
+        <% if (language !== 'ru') { %>
+        <a href="/ru"><img src="./styles/css/icons/russian.svg"></a>
+        <% } %>
+        </li>
+        <li class="header-button__languages navigation__item">
+        <% if (language !== 'no') { %>
+        <a href="/no"><img src="./styles/css/icons/norwegian.svg"></a>
+        <% } %>
+        </li>
       </ul>
       <button class="navigation__burger">
         <div></div>
@@ -54,17 +69,6 @@
   <header class="header">
     <img src="./styles/css/img/hero-background.jpg" alt="">
     <section class="header__item">
-      <div class="header-button__languages">
-        <% if (language !== 'en') { %>
-        <button ><a href="/en"><img src="./styles/css/icons/english.svg"></a></button>
-        <% } %>
-        <% if (language !== 'ru') { %>
-        <button><a href="/ru"><img src="./styles/css/icons/russian.png"></a></button>
-        <% } %>
-        <% if (language !== 'no') { %>
-        <button><a href="/no"><img src="./styles/css/icons/norwegian.svg"></a></button>
-        <% } %>
-      </div>
       <button class="header-button">
         <a href="#contact"><%=book%></a>
       </button>
@@ -239,7 +243,7 @@
         <button class="slideshow__next"><i class="fa fa-chevron-right"></i></button>
       </div>
       <button class="room__description-button  more-button"><%=room_more_information_button%></button>
-        <p class="room__description-more"><%=room_katarzynki_more_description%></p>
+      <p class="room__description-more"><%=room_katarzynki_more_description%></p>
     </div>
 
     <div class="room">
@@ -422,7 +426,7 @@
 
     <section class="contact-mail">
       <h3>
-       <%=text_us%>
+        <%=text_us%>
       </h3>
       <div class="form">
         <form action="https://formspree.io/ann.lookyanova@gmail.com" method="POST">
