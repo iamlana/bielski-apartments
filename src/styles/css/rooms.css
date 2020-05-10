@@ -54,7 +54,7 @@
 .room__description-more {
   grid-column: span 2;
   white-space: pre-line;
-  text-align: justify;
+  text-align: left;
 }
 
 .room__description-more {
