@@ -42,21 +42,21 @@
             <i class="fa fa-phone-alt"></i> +48 572 203 764
           </a>
         </li>
+        <% if (language !== 'en') { %>
         <li class="header-button__languages navigation__item">
-          <% if (language !== 'en') { %>
           <a href="/en"><img src="./styles/css/icons/english.svg"></a>
-          <% } %>
         </li>
-        <li class="header-button__languages navigation__item">
+        <% } %>
         <% if (language !== 'ru') { %>
-        <a href="/ru"><img src="./styles/css/icons/russian.svg"></a>
-        <% } %>
-        </li>
         <li class="header-button__languages navigation__item">
-        <% if (language !== 'no') { %>
-        <a href="/no"><img src="./styles/css/icons/norwegian.svg"></a>
-        <% } %>
+          <a href="/ru"><img src="./styles/css/icons/russian.svg"></a>
         </li>
+        <% } %>
+        <% if (language !== 'no') { %>
+        <li class="header-button__languages navigation__item">
+          <a href="/no"><img src="./styles/css/icons/norwegian.svg"></a>
+        </li>
+        <% } %>
       </ul>
       <button class="navigation__burger">
         <div></div>

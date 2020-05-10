@@ -49,8 +49,6 @@
 
 .navigation__item a:hover {
   color: rgb(233, 220, 103);
-  font-weight: 600;
-  text-transform: uppercase;
   text-decoration-line: underline;
 }
 
