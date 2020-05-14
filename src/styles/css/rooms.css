@@ -45,6 +45,7 @@
 .room__description {
   text-align: justify;
   margin-left: 35px;
+  white-space: pre-line;
 }
 
 .rooms__description {
