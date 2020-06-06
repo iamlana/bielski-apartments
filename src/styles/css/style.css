@@ -106,7 +106,6 @@ body {
   background-color: rgb(64, 77, 73);
   color: white;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-  padding-bottom: 10px;
 }
 
 
@@ -115,7 +114,7 @@ body {
 }
 
 .about p {
-  margin: 0 35px 10px 35px;
+  margin: 0 35px 0 35px;
   text-align: justify;
   grid-column: span 1;
   height: 135px;
@@ -229,9 +228,23 @@ blockquote cite {
   color: white;
 }
 /*rules*/
-.rules li{
-  list-style-type: none;
+.rules{
+  padding: 0 30px;
+  margin: 0;
+}
+.rules p{
   text-align: left;
+}
+.rules li:nth-last-child(-n+1){
+  white-space: pre-line;
+}
+.rules li{
+  text-align: left;
+  list-style-type: none;
+}
+.rules ul{
+  margin: 0;
+  padding: 0;
 }
 /*footer*/
 .contact {

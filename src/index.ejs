@@ -72,12 +72,9 @@
     </h3>
     <article class="about__item">
       <p class="about__item-text"><%=about_description_1%></p>
-      <img class="about__img" src="/styles/css/img/properties/property-1/179413267.jpg" alt="Gdansk">
     </article>
     <article class="about__item">
       <p class="about__item-text"><%=about_description_2%></p>
-      <!-- TODO: Add image here -->
-      <img class="about__img" src="/styles/css/img/properties/property-1/178929294.jpg" alt="Gdansk">
     </article>
   </section>
   <section class="rooms" id="rooms">
@@ -408,81 +405,55 @@
   </section>
   <section class="rules" id="rules">
     <div>
-      <h3>Rules</h3>
-      <p>
-        Breakfast is only offered at Bielski Guesthouse and Bielski Lawendowa Rooms. Breakfast could be provided at the
-        other properties upon request. Smoking is strictly prohibited on all properties. Smoking is only permitted at
-        Bielski Guesthouse terrace on the top floor.
-      </p>
+      <h3><%=rules_nav%></h3>
+      <p><%=rules_breakfast%></p>
+      <p><%=rules_smoking%></p>
       <ul>
         <li>
-          <h4><i class="fas fa-check-square"></i> Check-in/Check-out</h4>
-          <p>Normal Check In time starts at 15:00. Check-out is at 10:00.</p>
+          <h4><i class="fas fa-check-square"></i> <%=rules_check%></h4>
+          <p><%=rules_check_description%></p>
         </li>
         <li>
-          <h4><i class="fas fa-hand-sparkles"></i> Housekeeping</h4>
-          <p>
-            Housekeeping is provided daily between the hours of 12:00 to 15:00. We kindly ask you to remain out of the
-            Guesthouse or remain in your room at this time.
-          </p>
+          <h4><i class="fas fa-hand-sparkles"></i> <%=rules_housekeeping%></h4>
+          <p><%=rules_housekeeping_description%></p>
         </li>
         <li>
-          <h4><i class="fas fa-luggage-cart"></i> Luggage</h4>
-          <p>
-            You may store your luggage before the check-in and after check-out for as long as you need to.
-          </p>
+          <h4><i class="fas fa-luggage-cart"></i> <%=rules_luggage%></h4>
+          <p><%=rules_luggage_description%></p>
         </li>
         <li>
-          <h4><i class="fas fa-walking"></i> Self check-out</h4>
-          <p>
-            Please, place your room keys into the box located at the reception. Or leave it in the box at the
-            self-check-in box at Ogarna Apartments
-          </p>
+          <h4><i class="fas fa-walking"></i> <%=rules_check_out%></h4>
+          <p><%=rules_check_out_description%></p>
         </li>
         <li>
-          <h4><i class="far fa-clock"></i> Late check-out time</h4>
-          <p>
-            Late check-outs are not permitted, however should you need some extended time, please notify the host.
-          </p>
+          <h4><i class="far fa-clock"></i> <%=rules_late_check_out%></h4>
+          <p><%=rules_late_check_out_description%></p>
         </li>
         <li>
-          <h4><i class="fas fa-house-user"></i> Prolonging your stay</h4>
-          <p>
-            Kindly contact us if you would like to prolong your stay. Your request will be satisfied upon room
-            availability.
-          </p>
+          <h4><i class="fas fa-house-user"></i> <%=rules_prolonging%></h4>
+          <p><%=rules_prolonging_description%></p>
         </li>
         <li>
-          <h4><i class="fas fa-volume-mute"></i> Quiet hours</h4>
-          <p>
-            From 22:00 to 7:00.
-          </p>
+          <h4><i class="fas fa-volume-mute"></i> <%=rules_quiet%></h4>
+          <p><%=rules_quiet_description%></p>
         </li>
         <li>
-          <h5><i class="fas fa-user-friends"></i> Other visitors</h5>
-          <p>
-            All visitors who are not mentioned in the reservation must vacate the premises by 22:00. In case of
-            violation, the main guest will be fined.
-          </p>
+          <h5><i class="fas fa-user-friends"></i> <%=rules_other_visitors%></h5>
+          <p><%=rules_other_visitors_description%></p>
         </li>
         <li>
-          <h4><i class="fas fa-glass-cheers"></i> Parties</h4>
-          <p>
-            Loud parties are not welcomed at all properties
-          </p>
+          <h4><i class="fas fa-glass-cheers"></i> <%=rules_parties%></h4>
+          <p><%=rules_parties_description%></p>
         </li>
         <li>
-          <h4><i class="fas fa-key"></i> Lost keys</h4>
-          <p>
-            The cost for replacement of lost room keys is 100 zl.
-          </p>
+          <h4><i class="fas fa-key"></i> <%=rules_lost_keys%></h4>
+          <p><%=rules_lost_keys_description%></p>
         </li>
         <li>
-          <h4><i class="fas fa-bomb"></i> Emergency situations</h4>
-          <p>
-            In all urgent situations we recommend contacting us directly.
-          </p>
+          <h4><i class="fas fa-bomb"></i> <%=rules_emergency%></h4>
+          <p><%=rules_emergency_description%></p>
         </li>
+        <li><%=rules_guest_interaction%></li>
       </ul>
     </div>
   </section>
