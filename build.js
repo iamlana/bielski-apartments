@@ -6,7 +6,7 @@ fsx.copySync('src/styles', 'dist/styles')
 fsx.copySync('src/script', 'dist/script')
 fsx.copySync('src/translations', 'dist/translations')
 
-const translations = ['en', 'no', 'ru']
+const translations = ['en', 'no', 'ru', 'pl', 'fn']
 
 for (const language of translations) {
   const html = ejs.render(
