@@ -1,0 +1,1 @@
+Bielski Apartments tilbyr koselig og hjemmekoselig innkvartering i sentrum av Gdansk til gjester og reisende fra hele verden. Pent innredet, sjarmerende eiendom er perfekt for en gruppe venner, to par eller avslappet og hyggelig familieferie.

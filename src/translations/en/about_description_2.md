@@ -1,0 +1,1 @@
+Bielski Apartments offers cozy, homelike accommodation in the center of Gdansk to guests and travelers from all around the world. Nicely furnished charming property is a great fit for a group of friends, two couples, or relaxed and enjoyable family vacation.
