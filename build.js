@@ -1,6 +1,7 @@
 const fsx = require('fs-extra')
 const path = require('path')
 const ejs = require('ejs')
+const marked = require('marked')
 
 fsx.removeSync('dist')
 fsx.copySync('src/styles', 'dist/styles')
@@ -12,7 +13,7 @@ const translations = ['en', 'no', 'ru', 'pl', 'fn']
 for (const language of translations) {
   const html = ejs.render(
     fsx.readFileSync('src/index.ejs', 'utf-8'),
-    JSON.parse(fsx.readFileSync(`src/translations/${language}.json`, 'utf-8')),
+    JSON.parse(fsx.readFileSync(`src/translations/${language}/${language}.json`, 'utf-8')),
     {
       views: [
         path.join(__dirname, 'src/partials')
