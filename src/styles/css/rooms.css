@@ -45,7 +45,6 @@
 .room__description {
   text-align: justify;
   margin-left: 35px;
-  white-space: pre-line;
 }
 
 .rooms__description {
@@ -54,7 +53,6 @@
 
 .room__description-more {
   grid-column: span 2;
-  white-space: pre-line;
   text-align: left;
 }
 
