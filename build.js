@@ -5,7 +5,7 @@ const marked = require('marked')
 
 fsx.removeSync('dist')
 fsx.copySync('src/styles', 'dist/styles')
-fsx.copySync('src/script', 'dist/script')
+fsx.copySync('src/scripts', 'dist/scripts')
 fsx.copySync('src/translations', 'dist/translations')
 
 const translations = ['en', 'no', 'ru', 'pl', 'fn']
