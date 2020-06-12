@@ -7,7 +7,9 @@
   z-index: 2;
   height: 60px;
 }
-
+.navigation-bottom{
+  background-color: rgb(64, 77, 73);
+}
 .navigation__container {
   margin: 0 auto;
   height: 60px;
