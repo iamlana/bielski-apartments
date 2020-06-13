@@ -165,17 +165,23 @@ h3 {
 
 /* Clients container */
 .client {
-  margin-top: 35px;
-  display: grid;
-  grid-template-columns: repeat(3, 1ft);
+  width: 100%;
+  padding: 30px 0;
   background-color: $color-green;
   color: white;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.client-container{
+  max-width: 1200px;
+  padding: 0 16px;
+  display: grid;
+  grid-template-columns: repeat(3, 1ft);
+}
+
 .client-header {
   grid-column: span 3;
-  margin-top: 35px;
+  margin: 0;
 }
 
 .client_picture {
@@ -190,6 +196,7 @@ h3 {
 .client_opinion {
   text-align: justify;
   margin: 0;
+  padding: 0;
 }
 
 .client_picture img {
@@ -206,7 +213,7 @@ h3 {
 
 blockquote {
   box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
-  margin: 16px 16px 30px 16px;
+  margin: 16px 30px;
   padding: 16px 24px;
   position: relative;
   font-size: 16px;
@@ -215,7 +222,11 @@ blockquote {
   font-style: italic;
   border-radius: 4px;
 }
-
+@media screen and (max-width: 1000px){
+  blockquote{
+    margin: 16px 0;
+  }
+}
 blockquote::before {
   border: 14px solid transparent;
   border-top: 14px solid #efefef;

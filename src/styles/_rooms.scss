@@ -10,18 +10,22 @@
   margin: 0 auto;
   align-items: center;
 }
-.rooms__header{
-margin: 0;
+
+.rooms__header {
+  margin: 0;
 }
+
 .rooms__selection {
   text-align: center;
   display: block;
   align-items: center;
   margin: 0 auto;
 }
-.more-button{
+
+.more-button {
   margin: 0;
 }
+
 .more-button,
 .rooms__selection-button {
   background-color: $color-yellow;
@@ -61,7 +65,7 @@ margin: 0;
   grid-column: span 2;
 }
 
-.room__description p{
+.room__description p {
   text-align: justify;
   margin: 0;
 }
@@ -88,10 +92,8 @@ margin: 0;
 
 @media only screen and (max-width: 1200px) {
   .rooms .slideshow {
-    width: 300px;
-    max-height: 300px;
+    width: 100%;
   }
-
   .rooms__section {
     margin: 30px 0;
     padding: 0 16px;
