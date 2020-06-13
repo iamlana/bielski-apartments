@@ -1,0 +1,35 @@
+.footer {
+  width: 100%;
+}
+@import "variables";
+
+.footer__content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+  background-color: $color-green;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__items {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.footer__item {
+  margin: 0 15px 0 0;
+  padding: 0;
+
+  &:last-child {
+    margin: 0;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
