@@ -10,7 +10,7 @@ function setupNavigation (navigation) {
     isOpen = true;
     navigation.classList.add('navigation--active');
     links.forEach((link, index) => {
-      link.style.animation = `slide-and-fade 0.5s ease forwards ${index / 7 + 0.2}s`;
+      link.style.animation = `slide-and-fade 0.5s ease forwards ${(index + 1) * 0.05}s`;
     })
   }
 
