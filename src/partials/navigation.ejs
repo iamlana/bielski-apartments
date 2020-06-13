@@ -1,5 +1,10 @@
 <nav class="navigation" id="navbar">
-  <div class="navigation__container">
+  <div class="navigation__content">
+    <button class="navigation__burger">
+      <div></div>
+      <div></div>
+      <div></div>
+    </button>
     <ul class="navigation__items">
       <li class="navigation__item">
         <a href="#about"><%=about_nav%></a>
@@ -16,26 +21,33 @@
       <li class="navigation__item">
         <a href="#rules"><%=rules_nav%></a>
       </li>
-      <li class="header-button__languages navigation__item">
-        <a href="/en"><img title="English" src="/styles/icons/english.svg"></a>
+    </ul>
+    <ul class="navigation__items">
+      <li class="navigation__item">
+        <a href="/en">
+          <img class="flag" title="English" alt="English" src="/styles/icons/english.svg">
+        </a>
       </li>
-      <li class="header-button__languages navigation__item">
-        <a href="/ru"><img title="Russian" src="/styles/icons/russian.svg"></a>
+      <li class="navigation__item">
+        <a href="/ru">
+          <img class="flag" title="Russian" alt="Russian" src="/styles/icons/russian.svg">
+        </a>
       </li>
-      <li class="header-button__languages navigation__item">
-        <a href="/no"><img title="Norwegian" src="/styles/icons/norwegian.svg"></a>
+      <li class="navigation__item">
+        <a href="/no">
+          <img class="flag" title="Norwegian" alt="Norwegian" src="/styles/icons/norwegian.svg">
+        </a>
       </li>
-      <li class="header-button__languages navigation__item">
-        <a href="/pl"><img title="Polish" src="/styles/icons/poland.svg"></a>
+      <li class="navigation__item">
+        <a href="/pl">
+          <img class="flag" title="Polish" alt="Polish" src="/styles/icons/poland.svg">
+        </a>
       </li>
-      <li class="header-button__languages navigation__item">
-        <a href="/fn"><img title="Finnish" src="/styles/icons/finland.svg"></a>
+      <li class="navigation__item">
+        <a href="/fn">
+          <img class="flag" title="Finnish" alt="Finnish" src="/styles/icons/finland.svg">
+        </a>
       </li>
     </ul>
-    <button class="navigation__burger">
-      <div></div>
-      <div></div>
-      <div></div>
-    </button>
   </div>
 </nav>
