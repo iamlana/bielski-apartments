@@ -1,0 +1,41 @@
+@import "variables";
+
+.footer {
+  width: 100%;
+  background-color: $color-green;
+}
+
+.footer__content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__items {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.footer__item {
+  margin: 0 15px 0 0;
+  padding: 0;
+
+  &:last-child {
+    margin: 0;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+      color: $color-yellow;
+      text-decoration-line: underline;
+    }
+  }
+}

@@ -12,6 +12,7 @@ function setupNavigation (navigation) {
     links.forEach((link, index) => {
       link.style.animation = `slide-and-fade 0.5s ease forwards ${(index + 1) * 0.05}s`;
     })
+    document.body.style.overflow = 'hidden'
   }
 
   function close () {
@@ -20,6 +21,7 @@ function setupNavigation (navigation) {
     links.forEach((link) => {
       link.style.animation = '';
     })
+    document.body.style.removeProperty('overflow')
   }
 
   function toggle () {
@@ -40,9 +42,9 @@ let prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
 let currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.top = "0";
+    document.querySelector('.navigation').classList.remove('navigation--hidden');
   } else {
-    document.getElementById("navbar").style.top = "-60px";
+    document.querySelector('.navigation').classList.add('navigation--hidden');
   }
   prevScrollpos = currentScrollPos;
 }
