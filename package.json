@@ -3,10 +3,12 @@
   "private": true,
   "scripts": {
     "start": "http-server dist -c-1 -p 3000",
-    "build": "node build.js",
+    "build": "node build.js && node-sass src/styles/main.scss dist/styles/main.css",
     "build:watch": "nodemon"
   },
-  "dependencies": {},
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  },
   "devDependencies": {
     "ejs": "^3.1.2",
     "fs-extra": "^9.0.0",
@@ -16,8 +18,12 @@
   },
   "nodemonConfig": {
     "exec": "yarn build",
-    "watch": ["src"],
-    "ignore": ["dist"],
+    "watch": [
+      "src"
+    ],
+    "ignore": [
+      "dist"
+    ],
     "ext": "*.*",
     "delay": "2500"
   }
