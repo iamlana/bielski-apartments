@@ -39,23 +39,23 @@
     </h3>
     <div class="form">
       <form action="https://formspree.io/ann.lookyanova@gmail.com" method="POST">
-        <input type="text" name="name" id="name" placeholder="Jak się nazywasz?" required><br>
-        <input type="email" name="_replyto" id="email" placeholder="E-mail" required><br>
-        <textarea name="message" id="message" placeholder="Przywitaj się:)" required></textarea><br>
-        <input class="button" type="submit" value="Send" id="submit">
+        <div><input type="text" name="name" id="name" placeholder="Jak się nazywasz?" required></div>
+        <div><input type="email" name="_replyto" id="email" placeholder="E-mail" required></div>
+        <div><textarea name="message" id="message" placeholder="Przywitaj się:)" required></textarea></div>
+        <div><input class="button" type="submit" value="Send" id="submit"></div>
       </form>
     </div>
   </section>
   <section class="contact-direction">
     <h3><%=how_to_get%></h3>
-    <p><%=room_spichrzowa_button%><br>
-      <%=room_katarzynki_button%><br>
-      <%=room_lawendowa_button%><br>
-      <%=room_ogarna_button%>
-    </p>
+    <p><%=room_spichrzowa_button%></p>
+    <p><%=room_katarzynki_button%></p>
+    <p><%=room_lawendowa_button%></p>
+    <p><%=room_ogarna_button%></p>
+    <p><%=transfer_offer%></p>
   </section>
 </footer>
-<p><%=transfer_offer%></p>
+
 <section class="map">
   <iframe src="https://www.google.com/maps/d/embed?mid=1XPyXjIH16-5eQ65PMIJRCB-b5rzf5I3a" width="100%" height="280">
   </iframe>
