@@ -1,3 +1,5 @@
+@import "variables";
+
 .rooms__selection {
   text-align: center;
   display: block;
@@ -10,8 +12,8 @@
 
 .more-button,
 .rooms__selection-button {
-  background-color: rgb(233, 220, 103);
-  color: rgb(64, 77, 73);
+  background-color: $color-yellow;
+  color: $color-green;
   width: 250px;
   height: auto;
   margin: 10px;

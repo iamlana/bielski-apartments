@@ -1,5 +1,7 @@
+@import "variables";
+
 .navigation {
-  background-color: rgb(64, 77, 73);
+  background-color: $color-green;
   padding: 0 20px;
   position: fixed;
   width: 100%;
@@ -9,7 +11,7 @@
 }
 
 .navigation-bottom {
-  background-color: rgb(64, 77, 73);
+  background-color: $color-green;
 }
 
 .navigation__container,
@@ -49,7 +51,7 @@
 }
 
 .navigation__item a:hover {
-  color: rgb(233, 220, 103);
+  color: $color-yellow;
   text-decoration-line: underline;
 }
 
@@ -90,7 +92,7 @@
     width: 100%;
     height: 100%;
     padding: 60px 0;
-    background-color: rgb(64, 77, 73);
+    background-color: $color-green;
     display: flex;
     flex-direction: column;
     align-items: center;
