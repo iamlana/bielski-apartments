@@ -1,12 +1,12 @@
 setupNavigation(document.querySelector('.navigation'));
 
-function setupNavigation (navigation) {
+function setupNavigation(navigation) {
   const button = navigation.querySelector('.navigation__burger');
   const links = navigation.querySelectorAll('.navigation__item');
 
   let isOpen = false;
 
-  function open () {
+  function open() {
     isOpen = true;
     navigation.classList.add('navigation--active');
     links.forEach((link, index) => {
@@ -15,7 +15,7 @@ function setupNavigation (navigation) {
     document.body.style.overflow = 'hidden'
   }
 
-  function close () {
+  function close() {
     isOpen = false;
     navigation.classList.remove('navigation--active');
     links.forEach((link) => {
@@ -24,7 +24,7 @@ function setupNavigation (navigation) {
     document.body.style.removeProperty('overflow')
   }
 
-  function toggle () {
+  function toggle() {
     if (isOpen) {
       close();
     } else {
@@ -39,8 +39,8 @@ function setupNavigation (navigation) {
   });
 }
 let prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-let currentScrollPos = window.pageYOffset;
+window.onscroll = function () {
+  let currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     document.querySelector('.navigation').classList.remove('navigation--hidden');
   } else {
@@ -48,3 +48,28 @@ let currentScrollPos = window.pageYOffset;
   }
   prevScrollpos = currentScrollPos;
 }
+
+function languagePopup() {
+  const button = document.getElementById("languages")
+  let isOpen = false;
+
+  function open() {
+    isOpen = true;
+    document.getElementById("languages-popup").style.display = "inline-flex";
+  }
+console.log(button)
+  function close() {
+    isOpen = false;
+    document.getElementById("languages-popup").style.display = "none";
+  }
+
+  function toggle() {
+    if (isOpen) {
+      close();
+    } else {
+      open();
+    }
+  }
+  button.addEventListener('click', toggle);
+}
+languagePopup()
