@@ -50,26 +50,13 @@ window.onscroll = function () {
 }
 
 function languagePopup() {
-  const button = document.getElementById("languages")
-  let isOpen = false;
-
-  function open() {
-    isOpen = true;
-    document.getElementById("languages-popup").style.display = "inline-flex";
-  }
-console.log(button)
-  function close() {
-    isOpen = false;
-    document.getElementById("languages-popup").style.display = "none";
-  }
+  const button = document.querySelector(".languages__button")
+  const popup = document.querySelector('.languages-popup')
 
   function toggle() {
-    if (isOpen) {
-      close();
-    } else {
-      open();
-    }
+    popup.classList.toggle('languages-popup--open')
   }
+
   button.addEventListener('click', toggle);
 }
 languagePopup()
