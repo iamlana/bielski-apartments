@@ -1,1 +1,17 @@
-Bielski Guesthouse er et familiedrevet selskap, som bærer familienavnet stolt! Bielski Guesthouse kombinerer service av høy kvalitet, med en uformell atmosfære i et flott gjestehus. Bielski Guesthouse har en praktisk beliggenhet, på øya Spichrzowa og vi har en privat inngang. Også privat tilgang til andre nivå i en klassisk renovert Gdansk-bygård midt i hjertet av Gdansk, hvor gjestene våre kan inspireres av gamlebyens historie og arkitektur! Øya har forbindelse med hovedgaten Długi Targ (Long Market) og ligger rett overfor Green Gate. Eiendommen ligger i nærheten av alle hovedattraksjoner. Restauranter og barer er spredt over Gdansk sentrum fra siden av Green Gate, som også er neæme Dlugi Targ. Det er også, flere barer og spisesteder i selve bygningen! Dette er Bielski Gjestehus! Flott plass , for dem som ønsker , både avslapning og følelse av å være mitt i byen, historien og kulturen!. Du kan se over, et stor om flott området, her kna du spise frokokst, og nyte stillheten.. Bord og stoler, og planter. Vi møter deg, med hjelpsomhet, og kominserer individuelt med alle! Jeg kommer og møte deg, og hjelper deg med alt du måtte lure på! Vi prøver å gi den beste atmosfæren til alle, vi møter! Kommer du skiten , eller sent. Er vi der, og sjekker deg inn fort, og skulle du trenge den miste spørsmål, er vi der, for dem! Vi kjenner Gdansk, og vi kan hjelpe deg med det aller meste, på tl.f el. sosialt, hvor vi kan hjelpe , med det meste av spørsål. hvor du kna gå, finne museum, resturanter, og barer og dico/karokeba!. Det finnes en haug av aktiviteter. Fra fly jump, til andre ting som Rally kjøring, for eksempel Her er det sikkert 3-40 forskjellige aktiviteter, å gjør, i løpet av året!! =)
+### Rodzinna gościnność
+
+Bielski Guesthouse to firma z rodzinnym rodowodem oraz historią. Bielski Guesthouse łączy wysoką jakość usług ze swobodną atmosferą pensjonatu oraz domową gościnnością. Jest to komfortowe miejsce usytuowane na 	Wyspie Spichrzów w chronionym, prywatnym, odrestaurowanym klasycznym gdańskim apartamentowcu w samym sercu Gdańska, w którym nasi goście mogą czerpać inspirację z ciekawej historii oraz wspaniałej architektury i zabytków starego miasta.
+
+Gospodarze płynnie porozumiewają się w czterech językach (angielski, polski, rosyjski, włoski).
+
+W małej odległości znajdują się atrakcje takie jak: Narodowe Muzeum Morskie, Muzeum II Wojny Światowej, ulica Długi Targ, Zielona Brama i wiele innych.
+
+Obiekt znajduje się blisko wszystkich głównych atrakcji miasta, a także licznych restauracji czy barów. Kilka z nich znajduje się w samej kamienicy.
+
+### Guesthouse
+
+Nieruchomość składa się z czterech przestronnych pokoi z dwiema wspólnymi łazienkami rozmieszczonymi w tradycyjnie urządzonym 3-poziomowym budynku zlokalizowanym w centralnej części Gdańska. Obiekt został odnowiony w wyjątkowo wysokim standardzie.
+
+Bielski Guesthouse to idealne miejsce dla par, rodzin z dziećmi, samotnych poszukiwaczy przygód jak i osób podróżujących służbowo.
+
+Dokładamy wszelkich starań, aby Państwa pobyt był udany!

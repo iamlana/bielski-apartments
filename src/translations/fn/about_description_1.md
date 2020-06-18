@@ -1,0 +1,1 @@
+Hei! Olemme kahdeksan hengen perhe, joka otti tehtäväkseen rakkaan kaupunkimme, Gdańskin, vierailijoiden parhaan mahdollisen elämyksen tarjoamisen. Haluamme tarjota jokaiselle vierailijallemme ainutlaatuisen ja uniikin kokemuksen, jollaista ei muissa paikoissa koe. Kohtelemme vieraitamme, niin kuin kohtelemme ystäviämme.

@@ -1,0 +1,1 @@
+Huoneistomme ovat aina ystävällishenkisiä ja iloisella tunnelmalla varustettuja. Autamme mielellämme kaupungin ja lähialueiden nähtävyyksien kanssa, ja kaikki kysymykset ovat aina tervetulleita. Kiitos yhteistyöstä! Bielski Apartments toivottaa sinut tervetulleeksi matkalle, jota et tule katumaan.

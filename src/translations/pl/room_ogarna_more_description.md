@@ -1,1 +1,22 @@
-Strategisk beliggenhet. Videre er det mange restauranter med lokal og deilig mat, i umiddelbar nærhet. Takket være den flotte, sentrale beliggenheten! Det, er to hoved (attraksjoner), som vi råder gjestene våre til å følge. For å finne et deilig og rimelig måltid! Enten utforske sentrumsområdet langs, Długa- eller Szeroka-gatene, eller krysse elven Motława og utforske Stągiwna-gata. Som også tilbyr barer og unike resturante. Dette er rett ved den nydelige broen, der elven Motława, går gjennom, den populær plass, som ikke bare er nveldig, men som er rett ved dluga gata, hvor også du kan få plass god nattesøvn, i helgene! Strategisk beliggenhet Bielski Apartments Ogarna ligger i det rolige området i sentrum av Gdansk, like ved hovedgatene Długi Targ, omtrent 50 meter unna, ligger, Cow's bridge som, forbinder den viktige sentrale Dluga gata, med øya Spichrzowa.            Stor arkitektonisk mesterverk gate Brama Krowia ligger rundt hjørnet. Det ligger mange lokale barer og restauranter i nærheten av bygningen. De viktigste byattraksjonene ligger innen gangavstand: Central Maryskirken og Gdansk street Długi Targ (Long Market) og Motława-elven ligger bare 2 minutters gange fra leiligheten. 'Amber Street' (ul. Mariacka), full av små butikker med lokale ravsmykker, og suvenirer,  som ligger 5 minutter unna. Rådhusmuseet ligger også, Arthus Court 4 minutter unna. Museum of the Second World War ligger bare 10 minutter unna… =)
+### Udogodnienia
+
+W łazience znajduje się suszarka, mydło, szampon i żel pod prysznic. Wszystkie pokoje wyposażone są w ręczniki oraz zasłony przyciemniające. W całym obiekcie można korzystać z bezpłatnego bezprzewodowego dostępu do Internetu. Żelazko i deska do prasowania są dostępne na życzenie. W apartamencie znajduje się dobrze wyposażona kuchnia, w której goście mają sposobność przygotowywania własnych posiłków.
+
+W pokojach znajduje się mała biblioteka i kącik dla dzieci z dużą ilością zabawek oraz gier planszowych.
+
+Dokładamy wszelkich starań, aby Państwa pobyt był udany.
+
+### Interakcja z gośćmi
+
+Istnieje możliwość samodzielnego zameldowania za pośrednictwem skrzynki na klucze. Po dokonaniu rezerwacji w apartamencie Bielski Ogarna za pośrednictwem platformy rezerwacyjnej/sms/telegram/viber/whatsapp udostępniamy gościom niezbędną ku temu instrukcję.
+
+Prosimy o wcześniejsze podanie przybliżonej godziny przyjazdu. W przypadku problemów związanych z wejściem do mieszkania prosimy o kontakt z gospodarzem.
+
+Ponadto prosimy o terminowe wymeldowanie oraz pozostawienie kluczy w skrzynce na klucze znajdującej się po lewej stronie drzwi wejściowych.
+
+Nasi gospodarze zawsze chętnie udzielą więcej informacji na temat miejsc rekreacyjnych oraz imprez turystycznych w Gdańsku oraz Trójmieście.
+
+### Dojazd
+Apartamenty Bielski Ogarna znajdują się w odległości około 20 minut spacerem od głównego dworca kolejowego Gdańsk Główny idąc przez Stare Miasto. Najłatwiej dotrzeć do obiektu pieszo bądź taksówką.
+
+Najlepszym sposobem na znalezienie parkingu w pobliżu Apartamentu Bielski Ogarna jest skorzystanie z publicznie wyznaczonych miejsc parkingowych, które znajdują się na obszarze Starego Miasta. Należy pamiętać, że parkowanie jest bezpłatne w Gdańsku od 20:00 do 9:00 w dni robocze, jest natomiast całkowicie bezpłatne w weekendy.

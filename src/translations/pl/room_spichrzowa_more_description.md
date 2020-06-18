@@ -1,9 +1,32 @@
-Oversikt
+### Udogodnienia
+Wszystkie pokoje wyposażone są w bardzo komfortowe łóżka. Wygodna kuchnia posiada czajnik, toster, ekspres do kawy, kuchenkę mikrofalową, płytę indukcyjną, lodówkę oraz pralkę, gdzie nasi goście są mile widziani i odnajdą tam wszelkie niezbędne przybory kuchenne oraz zastawę stołową.
 
-  Eiendommen ligger innen gangavstand fra alle hovedattraksjonene: National Maritime Museum, Museum of the Second World War in Gdansk, central street Długi Targ (Long Market), og mange flere flotte . Mange restauranter og barer er spredt over Gdansk sentrum fra siden av Green Gate. En av de beste plassen, hvor du naturen finnes.  Gdansk er fra Green Gate.  Bielski Guesthouse ligger bare 20-minutters spasertur fra sentralstasjonen Gdansk Głowny, gjennom Gamlebyen. Den enkleste måten å nå den til fots ville være å følge Długi Targ (Long Market) gate og gå ut gjennom Green Gate inn i Spichrzowa øya (Wyspa Spichrzów) Det tar bare 11 minutter fra sentralbanestasjonen Gdansk Głowny for å komme til Bielski Guesthouse med trikk nummer 8 eller 9. Man må ta av trikken ved Chmielna-stoppet og gå 350 meter til Spichrzowa 24. Den beste måten å nå Bielski Guesthouse med bil ville være å kjœre gjennom Chmielna street eller Długi Ogrody street, og krysser Stągiewna Bridge. 
+W części wspólnej znajduje się także mała biblioteka i kącik dla dzieci z zabawkami oraz planszówkami. Jest to doskonałe i przyjemne miejsce służące do spotkań oraz rekreacji. Żelazko i deska także należą do wyposażenia.
 
-Byparkering er bare gratis på kvelden fra 17:00 til 09:00 og i helgene. Det er imidlertid fullt mulig å finne en gratis parkeringsplass , på siden av Spichrzowa street Sengene, finnes i både herlig og myrsmål, om forskjelllige ting! Bilbliotek, Musesum, ke, sengert, enkeltsengen er forsovet store! Kjøkken er utstyr, med . 
+Obiekt dysponuje prywatnym tarasem na dachu budynku z widokiem na Gdańsk, w szczególności ruiny średniowiecznych spichrzów. W całym budynku (prócz tarasu) obowiązuje zakaz palenia.
 
-Bestikk, kopper, tallerkener, og alle typer bestikk du trenger! Kaffi og Te er klart (cornflaks), ,og Frokost, på døren kommer 8.00-8.30..rett utenfor døren. (God, sunn og stor frokost)! Mircrobølg ovn, stekeplate, er det!det er og, et stor bord der, hvor du kan slappe av og nyte solskinnet, og slappe av hele dagen! Sengene er av den dyrere, typen, og veldig behagelige, solskjermer, er det også. Det er veldig nerme det, ^nye^ 
+Łazienki wyposażone są w suszarki oraz środki czystości takie jak mydło, szampon czy żel pod prysznic. W każdym pokoju odnajdziecie ręczniki oraz zasłony przyciemniające.
 
-Furm kjøpesenteret, som ble åpnet for et lite ar siden. Det alle største, og og fantastisk å se på, både inne og ute!. Det er en av de største i Europa, fak tisk Dert er bare, 3-400 meter fra Gjestehuset!. Dluga gaten!, fører deg rett igjennom, Det er 50 m. Til den flotte og storslåtte inngangen ved inntreden til  Dluga street! , til den Nydelige (store), inngangen. som går inn til Dluga street ( Hovedgaten) den store inngangen, og entree=n, som er 159=0 år gammel! Her skjer det med meste!!.. ,ligger bare 40 m unna.! Hvor det er bare 70 m, unne, inn til Duga Street , over den lille Flotte broen, og elven! Som fører deg til Duga street!! Hvor du Har alle butikker og interesser! =D ( sentrum )*Hovedgaten!, Der e du finner..r, alle butikker og resturantene! Gdansk By! =)
+W całym obiekcie można korzystać z bezpłatnego bezprzewodowego dostępu do Internetu. Istnieje możliwość skorzystania ze śniadania kontynentalnego.
+
+Interakcja z gośćmi Dokładamy wszelkich starań, aby nasi goście byli witani oraz meldowani indywidualnie. Prosimy o wcześniejsze podanie przybliżonej godziny przyjazdu.
+
+„Miejsce spotkań” Bielski Guesthouse znajduje się tuż pod adresem Spichrzowa 24 pomiędzy barem Pixel a restauracją A la française. Skontaktuj się z nami, kiedy będziesz na miejscu. Jeśli to możliwe, prosimy o poinformowanie nas około 20 minut przed przyjazdem do obiektu.
+
+Wszyscy goście są proszeni o terminowe wymeldowanie oraz pozostawienie kluczy w pudełku na recepcji.
+
+Zawsze chętnie udzielamy informacji na temat znajdujących się w pobliżu atrakcji turystycznych.
+
+
+### Dodatkowe usługi
+
+Oferujemy taksówkę w wyjątkowo niskiej cenie 50 PLN (około 12 euro) z lotniska do Bielski Guesthouse. Inne taksówki czy usługi transportowe kosztują 60-70 PLN. Skontaktuj się z nami, aby uzyskać więcej informacji.
+
+
+### Dojazd
+
+Bielski Guesthouse znajduje się w odległości około 20 minut spacerem przez Stare Miasto od głównego dworca kolejowego Gdańsk Główny.
+
+Do Bielski Gesthouse można dojechać tramwajem nr 8 lub 9 (przystanek Chmielna, ok 3 min spacerem) bądź tramwajem nr 2, 3, 6 oraz 11 (przystanek Brama Wyżynna, ok 7 min spacerem).
+
+Najwygodniejszy dojazd samochodem jest od ul. Chmielnej lub Długie Ogrody. Parking miejski jest bezpłatny od 17:00 do 9:00 oraz w weekendy. Można jednak znaleźć wolne miejsce parkingowe od strony ul. Spichrzowej.

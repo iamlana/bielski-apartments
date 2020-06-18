@@ -8,7 +8,7 @@ The property has a terrace on a rooftop deck with a view over the ruins of one o
 
  Bielski Guesthouse would be a perfect fit for couples, families with kids, solo adventurers, and business travelers. There are four rooms that may have bed arrangements that will suit your best purpose. Spacious common area on the first floor at the kitchen is a welcoming hangout spot.
 
-Amenities
+### Amenities
 
 • Bathrooms are equipped with hairdryers, hand soap, shampoos and shower gels.
 • Towels are provided for each guest.
@@ -21,7 +21,7 @@ Amenities
 • Guests are encouraged to enjoy all of the common areas of the guesthouse including kitchen, terrace, two shared bathrooms to their need or recreation.
 • We are doing our best to make your stay enjoyable.
 
-Guest Interaction
+### Guest Interaction
 
 All guests are greeted and checked-in individually at the location of Bielski Guesthouse. Please, provide you approximate time of arrival in advance.
 The “Bielski Guesthouse Meeting point’ is right under Spichrzowa 24 between Pixel bar and A la française restaurant. Please, contact us once you are there. You may use our wifi, password will be provided in the instructions after reservation is made.
@@ -29,11 +29,11 @@ If possible, please kindly inform us some 20 minutes in advance before your arri
 All guests are welcomed for express check-out by leaving the keys in the box at the reception area.
 Our hosts are always glad to provide more details about recreational places nearby.
 
-Overview
+### Overview
 
 The property is within walking distance of all main attractions: National Maritime Museum, The Museum of the Second World War in Gdansk, central street Długi Targ (Long Market), and many more. Plenty of restaurants and bars are scattered across Gdansk downtown part from the side of Green Gate. One of the best sceneries of Gdansk is from the Green Gate.
 
-Getting around
+### Getting around
 
 Bielski Guesthouse is in some 20 minutes of walk from the main station Gdansk Głowny through the Old Town. The easiest way to reach it by foot would be to follow Długi Targ (Long Market) street and exit through the Green Gate entering Spichrzowa island (Wyspa Spichrzów).
 It takes only 11 minutes from the central railway station Gdansk Głowny to get to Bielski Guesthouse with a tram number 8 or 9. One would need to take off the tram at Chmielna stop and walk for 350 meters reaching Spichrzowa 24.

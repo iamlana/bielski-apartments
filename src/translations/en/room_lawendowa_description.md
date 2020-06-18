@@ -4,10 +4,12 @@ Our rooms await guests who know how to value aesthetics that goes from century t
 
 We always strive to provide personalized service and attention to every detail. Our hosts are always welcome to share information about the main events and imperative sightseeing sports in both Gdansk and Tricity.
 
-There are 3 rooms on the property:
+### There are 3 rooms on the property:
 
-1 Room with a bed for two people
-1 Room with a bed for 2 people and a foldable sofa for 2 people
-1 room with four single beds
+- 1 Room with a bed for two people
+
+- 1 Room with a bed for 2 people and a foldable sofa for 2 people
+
+- 1 room with four single beds
 
 The property also has a shared bathroom, a library, and a well-eqipeed kitchen.
