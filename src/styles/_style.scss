@@ -43,7 +43,7 @@ h3 {
 .header-container{
   width: 100%;
   height: inherit;
-  background-color: black;
+  background-color: $color-green;
   filter: opacity(80%);
 }
 .header-container .headerSlides {
@@ -100,7 +100,7 @@ h3 {
 
 .header-button {
   position: absolute;
-  top: 50%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -117,7 +117,15 @@ h3 {
   font-family: "Montserrat", sans-serif;
   border-radius: 4px;
 }
-
+.header__emblem{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  height: 45%;
+  width: auto;
+}
 .header-button a {
   text-decoration: none;
   color: black;
