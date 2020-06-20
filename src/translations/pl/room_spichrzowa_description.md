@@ -1,4 +1,4 @@
-### Rodzinna gościnność
+**Rodzinna gościnność**
 
 Bielski Guesthouse to firma z rodzinnym rodowodem oraz historią. Bielski Guesthouse łączy wysoką jakość usług ze swobodną atmosferą pensjonatu oraz domową gościnnością. Jest to komfortowe miejsce usytuowane na 	Wyspie Spichrzów w chronionym, prywatnym, odrestaurowanym klasycznym gdańskim apartamentowcu w samym sercu Gdańska, w którym nasi goście mogą czerpać inspirację z ciekawej historii oraz wspaniałej architektury i zabytków starego miasta.
 
@@ -15,3 +15,20 @@ Nieruchomość składa się z czterech przestronnych pokoi z dwiema wspólnymi �
 Bielski Guesthouse to idealne miejsce dla par, rodzin z dziećmi, samotnych poszukiwaczy przygód jak i osób podróżujących służbowo.
 
 Dokładamy wszelkich starań, aby Państwa pobyt był udany!
+
+
+
+- wyjątkowa lokalizacja Wyspa Spichrzów - najbardziej prestiżowa część starego Gdańska,
+
+- strefa chroniona,
+
+- 2 windy,
+
+- wejście od strony wyjątkowego atrium,
+
+- eleganckie dębowe schody z balustradą z kutego żelaza,
+
+- stiuk na sufitach,
+
+- idealny do wypoczynku taras,
+

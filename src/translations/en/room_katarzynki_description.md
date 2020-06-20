@@ -6,3 +6,13 @@ Apartment with a small balcony (with a view over St. Mary's Church) is located i
 
 The apartment has two rooms, HD TV-set with a broad range of channels and unlimited WI-FI access. A well-furnished kitchen is equipped with dishwasher, washing machine, fridge, microwave oven and a gas cooker. Bathroom is equipped with a hair dryer and  hand soap. Bed linen, towels, iron and ironing board are included as well. Our guests are always welcome to enjoy coffee, tea, and light snacks provided in the kitchen. Guests are provided with complimentary bottled water.
 
+- direct proximity to Catholic shrines: Church of St. Katarzyna, Church of St. Bridget's (with a unique amber altar)
+
+- authentic apartments decorated by famous Belarusian artist Nika Sandros
+
+- quiet, sunny, very comfortable apartment
+
+- freshly renovated
+
+- great view from the balcony on the main church of Gdansk - St. Mary’s
+

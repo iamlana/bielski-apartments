@@ -7,3 +7,15 @@ W pobliżu znajduje się wiele restauracji z lokalnymi potrawami. Istnieją dwa 
 ### Dogodna lokalizacja
 
 Apartamenty Bielski Ogarna znajdują się w spokojnej okolicy w centrum Gdańska tuż obok głównych ulic takich jak Długi Targ, około 150 metrów od mostu Krowiego, który łączy centrum miasta z wyspą Spichrzów. Będąca arcydziełem architektury Krowia Brama znajduje się tuż za rogiem. W pobliżu budynku znajduje się wiele lokalnych barów i restauracji. Główne atrakcje miasta znajdują się w odległości krótkiego spaceru. Kościół Mariacki, Długi Targ i Motława znajdują się zaledwie 2 minuty spacerem. „Amber Street” (ul. Mariacka) pełna małych sklepów z lokalną biżuterią i pamiątkami z bursztynu jest około 5 minut od obiektu. Muzeum Ratusza i Dwór Artusa są oddalone tylko o 4 minuty. Muzeum II Wojny Światowej znajduje się zaledwie 10 minut stąd.
+
+
+
+- klasyczny klimat Gdańska,
+
+- przestronny, jasny, cichy apartament,
+
+- romantyczna sypialnia,
+
+- lokalizacja przy jednej z głównych ulic Gdańska,
+
+- zabytkowa gdańska szafa z kolekcją prawdziwych niemieckich kufli.

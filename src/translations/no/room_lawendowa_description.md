@@ -10,3 +10,17 @@ Det er 3 rom på eiendommen:
 
 * 1 rom med fire enkeltsenger. Eiendommen har også et delt bad, et bibliotek og et velutstyrt kjøkken.
 
+
+- Ligger i hjertet av gamlebyen
+
+- 150 år gammelt hus.
+
+- Original, tysk inngangsdør
+
+- Håndrestauregte, og originale dører inne.
+
+- Tyske antikk, peis, i rommene.
+
+- Flott dekerasjon i takene
+
+- Unik utsikt fra vinduet til det bymarkedet.

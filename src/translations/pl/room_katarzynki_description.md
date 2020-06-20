@@ -5,3 +5,13 @@ Apartament z małym balkonem (z widokiem na Kościół Mariacki) znajduje się w
 W pobliżu mieszkania znajduje się wiele zabytków, kościołów, muzeów, kawiarni, które dają naszym gościom nieograniczoną możliwość rekreacji. Centralny rynek z ekologicznymi owocami i warzywami, a także pysznym tradycyjnym mięsem i lokalnymi rybami jest tuż za rogiem. Bazylika Mariacka, Długi Targ oraz Motława znajdują się zaledwie 7 minut spacerem od apartamentu. Podobnie jak „Amber Street” (ul. Mariacka) pełna małych sklepów z unikatową, lokalną biżuterią czy pamiątkami z bursztynu. W pobliżu znajduje się wiele restauracji, barów i lokalnych piekarni produkujących lokalne przysmaki. Nieco ponad 10 minut dzieli Państwa od nowo otwartego centrum handlowego „Forum Gdańsk”, w którym znajduje kino, ponad 30 kawiarni i szeroki wybór sklepów.
 
 Nasi gospodarze zawsze chętnie udzielą więcej informacji na temat atrakcji turystycznych w pobliżu.
+
+- bliskość do europejskich sanktuariów katolickich: Kościół św. Katarzyny, Kościół św. Brygidy z wyjątkowym bursztynowym ołtarzem,
+
+- widok na Kościół Mariacki oraz inne zabytki starego miasta,
+
+- autentyczne apartamenty urządzone przez słynną białoruską artystkę Nikę Sandros,
+
+- ciche, słoneczne, bardzo wygodne mieszkanie,
+
+- świeżo odnowione w wysokim standardzie.

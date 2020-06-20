@@ -13,3 +13,17 @@ We always strive to provide personalized service and attention to every detail. 
 - 1 room with four single beds
 
 The property also has a shared bathroom, a library, and a well-eqipeed kitchen.
+
+- located in the heart of the old town
+
+- 150 year old house with authentic frescoes
+
+- original German entrance door
+
+- hand-restored original interior doors
+
+- antique German fireplaces in rooms
+
+- Stucco molding on the ceilings
+
+- unique view from the window on the old church and city market
