@@ -17,7 +17,7 @@ Kitchens of all properties are equipped with :
 - induction cooker
 - cookware, dishes and glasses
 
-Guest Interaction
+### Guest Interaction
 
 All guests are greeted and checked-in individually at the location of Bielski Guesthouse, Bielski Lawendowa Rooms, Bielski Apartments Katarzynki 9, Katarzynki 7. Please, provide you approximate time of arrival in advance.
 
@@ -27,8 +27,8 @@ In case of any problems related to getting into the apartment, kindly contact th
 
 If possible, please kindly inform us some 15-20 minutes in advance before your arrival to the property.
 
-All guests are welcomed for express check-out by leaving the keys in the box at the reception area or in the box outside of the apartment. 
+All guests are welcomed for express check-out by leaving the keys in the box at the reception area or in the box outside of the apartment.
 
- We offer taxi service which is only 50 PLN (around 12 Euros) from the airport to the Guesthouse. Regular taxi costs 60-70 PLN. Please, contact us for more details.
+**We offer taxi service which is only 50 PLN (around 12 Euros) from the airport to the Guesthouse. Regular taxi costs 60-70 PLN. Please, contact us for more details.**
 
 The best way to find parking around would be to use publicly designated parking areas that are allocated around the area of Bielski properties. In order to pay for the parking, kindly use the parkomat. Be advised that parking is free in Gdansk from 8PM till 9AM during the workweek days and is completely free throughout the weekends. However, it is quite possible to find a free parking spot along Spichrzowa str. - at the location of Bielski Guesthouse.
