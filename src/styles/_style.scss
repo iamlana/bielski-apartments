@@ -117,15 +117,7 @@ h3 {
   font-family: "Montserrat", sans-serif;
   border-radius: 4px;
 }
-.header__emblem{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  height: 45%;
-  width: auto;
-}
+
 .header-button a {
   text-decoration: none;
   color: black;
@@ -161,7 +153,7 @@ h3 {
   justify-content: center;
   display: grid;
   grid-gap: 25px;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   flex-direction: row;
   justify-self: center;
   text-align: center;
@@ -170,7 +162,7 @@ h3 {
 }
 
 .heading .about__heading {
-  grid-column: span 2;
+  grid-column: span 3;
   margin: 0;
 }
 
@@ -178,6 +170,14 @@ h3 {
   text-align: justify;
   grid-column: span 1;
 }
+.header__emblem{
+  margin: 0 auto;
+  height: 150px;
+  padding: 10px 0;
+  grid-column: span 1;
+  width: auto;
+  }
+
 
 .about__item p {
   margin: 0;
@@ -199,11 +199,13 @@ h3 {
 
   .about .about__item {
     height: auto;
+    grid-column: span 3;
   }
 
   .about__heading {
     margin: 0;
   }
+
 }
 
 /* Clients container */
@@ -421,13 +423,6 @@ form textarea {
 }
 
 @media (max-width: $small-screen) {
-  .about .about__item {
-    grid-column: span 2;
-  }
-
-  .about__img {
-    grid-column: span 2;
-  }
 
   .client {
     grid-template-columns: repeat(1, 1ft);
