@@ -58,7 +58,11 @@
     }
   }
 }
-
+.navigation__item p{
+  color: $color-yellow;
+  font-family: inherit;
+  font-weight:  bolder;
+}
 .navigation__item {
   margin: 0 15px 0 0;
   padding: 0;
