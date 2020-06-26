@@ -4,7 +4,6 @@ const ejs = require('ejs')
 const marked = require('marked')
 
 fsx.removeSync('dist')
-fsx.copySync('src/styles/graphics', 'dist/styles/graphics')
 fsx.copySync('src/styles/icons', 'dist/styles/icons')
 fsx.copySync('src/styles/img', 'dist/styles/img')
 fsx.copySync('src/scripts', 'dist/scripts')
