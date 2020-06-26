@@ -353,7 +353,7 @@ margin: 0 auto;
   margin: 0;
 }
 
-.contact-mail {
+.contact-book {
   grid-column: span 1;
 }
 
@@ -382,18 +382,9 @@ margin: 0 auto;
   margin-top: 16px;
 }
 
-.contact-mail input,
-form textarea {
-  width: 100%;
-  border: 1px solid #ccc;
-  margin-bottom: 20px;
-  border-radius: 4px;
-}
-
-.form input,
-.form textarea {
-  padding: 10px;
-  border: 1px black solid;
+.book{
+  display: block;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1000px) {
@@ -402,9 +393,8 @@ form textarea {
     grid-column: span 2;
   }
 
-  .contact-mail {
+  .contact-book {
     grid-column: span 2;
-    width: 50%;
     margin: 0 auto;
   }
 
@@ -415,10 +405,6 @@ form textarea {
   .contact-social i {
     font-size: 25px;
     padding: 5px;
-  }
-
-  form .button {
-    height: 20px;
   }
 }
 
