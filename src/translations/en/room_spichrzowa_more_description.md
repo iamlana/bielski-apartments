@@ -11,14 +11,24 @@ The property has a terrace on a rooftop deck with a view over the ruins of one o
 ### Amenities
 
 • Bathrooms are equipped with hairdryers, hand soap, shampoos and shower gels.
+
 • Towels are provided for each guest.
+
 • All rooms are equipped with blackout curtains.
+
 • Complimentary Wi-Fi is available throughout the property.
+
 • Iron and ironing board are available upon request.
+
 • A continental breakfast can be enjoyed at the property.
+
 • There is a small library and kid’s area with plenty of toys and board games located in the common area.
+
 • Iron and ironing board are located in the wardrobe at the entrance.
-• Guests are encouraged to enjoy all of the common areas of the guesthouse including kitchen, terrace, two shared bathrooms to their need or recreation.
+
+• Guests are encouraged to enjoy all of the common areas of the guesthouse including kitchen, terrace, two shared bathrooms to
+their need or recreation.
+
 • We are doing our best to make your stay enjoyable.
 
 ### Guest Interaction
