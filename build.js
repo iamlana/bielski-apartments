@@ -9,7 +9,7 @@ fsx.copySync('src/styles/img', 'dist/styles/img')
 fsx.copySync('src/scripts', 'dist/scripts')
 fsx.copySync('src/translations', 'dist/translations')
 
-const translations = ['en', 'no', 'ru', 'pl', 'fn']
+const translations = ['pl', 'en', 'no', 'ru', 'fn']
 
 for (const language of translations) {
   loadTranslations(language)
